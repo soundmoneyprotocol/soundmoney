@@ -2,21 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-.lightHeroBg{
+.lightHeroBg {
   background-image: url('/images/home/base_l.jpg');
 }
-.darkHeroBg{
+.darkHeroBg {
   background-image: url('/images/home/base_d.jpg');
 }
 
 .blueToPurple {
   color: white;
-  background-image: linear-gradient(116deg, #00bbff, #9c42f5 53%, #5d2de1 100%)
+  background-image: linear-gradient(116deg, #00bbff, #9c42f5 53%, #5d2de1 100%);
 }
 
 .greenToPurple {
   color: white;
-  background-image: linear-gradient(116deg, #00ffaa, #4579f5 53%, #9c42f5 100%)
+  background-image: linear-gradient(116deg, #00ffaa, #4579f5 53%, #9c42f5 100%);
 }
 
 .orangeToPink {
@@ -32,27 +32,3 @@
     0 2px 4px -1px rgba(27, 10, 82, 0.12), 0 0 1px 0 rgba(69, 121, 245, 0.24);
   background-image: linear-gradient(116deg, #00ffaa, #4579f5 53%, #9c42f5 100%);
 }
-
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
