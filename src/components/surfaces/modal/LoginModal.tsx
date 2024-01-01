@@ -32,7 +32,7 @@ export const LoginModal = () => {
       </button>
 
       <Modal closeModal={closeModal} isOpen={isOpen}>
-        <div className='max-w-2xl w-full flex bg-black/80 text-white p-4 rounded-2xl gap-x-8 mx-auto'>
+        <div className='max-w-2xl w-full flex bg-black/80 backdrop-blur text-white p-4 rounded-2xl gap-x-8 mx-auto'>
           <div className=' w-1/2'>
             <h2 className='text-4xl mt-4'>Login</h2>
             {state?.msg && (
