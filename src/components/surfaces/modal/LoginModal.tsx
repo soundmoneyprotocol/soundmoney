@@ -5,12 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import { Modal } from './Modal';
 import { useFormState, useFormStatus } from 'react-dom';
-import { signIn } from '@/lib/actions';
+import { logIn } from '@/lib/actions';
 
 export const LoginModal = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const [state, formAction] = useFormState(signIn, { msg: '' });
+  const [state, formAction] = useFormState(logIn, { msg: '' });
   const { pending } = useFormStatus();
 
   function openModal() {

@@ -8,7 +8,7 @@ export const RegisterButton = () => {
   return (
     <button
       type='submit'
-      aria-disabled={pending}
+      disabled={pending}
       className='bg-black w-full text-sm py-2 rounded-lg'
     >
       {pending ? 'Loading...' : ' Register'}
