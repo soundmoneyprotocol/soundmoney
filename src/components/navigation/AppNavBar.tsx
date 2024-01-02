@@ -35,9 +35,9 @@ export const AppNavBar = async () => {
 
       <div className='flex gap-x-8 items-center'>
         <ThemeButton />
-        <button className='rounded-xl py-2.5 font-semibold font-mont '>
+        {/* <button className='rounded-xl py-2.5 font-semibold font-mont '>
           Claim Drop
-        </button>
+        </button> */}
         {(await isAuth()) ? <NavBarLogoutBtn /> : <NavBarLoginBtn />}
       </div>
     </nav>

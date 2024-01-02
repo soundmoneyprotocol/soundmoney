@@ -68,9 +68,9 @@ export default function Home({
                   Register
                 </button>
               </Link>
-              <Link href={'/account/login'} type='button' className='text-gray-300 text-sm mt-4'>
+              {/* <Link href={'/account/login'} type='button' className='text-gray-300 text-sm mt-4'>
                 Signed Up before? Check your status
-              </Link>
+              </Link> */}
             </div>
           </form>
         </div>

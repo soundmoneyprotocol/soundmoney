@@ -52,9 +52,9 @@ export default function Signup({
               </div>
               <div className='w-full mt-2'>
                 <RegisterButton />
-                <button type='button' className='text-gray-300 text-sm mt-4'>
+                {/* <button type='button' className='text-gray-300 text-sm mt-4'>
                   Signed Up before? Check your status
-                </button>
+                </button> */}
               </div>
             </form>
           )}
