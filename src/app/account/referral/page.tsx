@@ -6,7 +6,6 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons/faCheck';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { cookies, headers } from 'next/headers';
 import React, { useState } from 'react';
-import Confetti from 'react-confetti';
 
 
 export default async function Referral() {
