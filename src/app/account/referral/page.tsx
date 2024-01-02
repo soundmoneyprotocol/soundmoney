@@ -1,9 +1,12 @@
+import CopyReferral from '@/components/CopyReferral';
 import { HomeContainer } from '@/components/content';
 import { createClient } from '@/utils/supabase/server';
 import { faCopy } from '@fortawesome/free-regular-svg-icons';
+import { faCheck } from '@fortawesome/free-solid-svg-icons/faCheck';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { cookies, headers } from 'next/headers';
-import React from 'react';
+import React, { useState } from 'react';
+
 
 export default async function Referral() {
   const supabase = createClient(cookies());
@@ -19,8 +22,11 @@ export default async function Referral() {
   console.log({ data, error });
   const [{ referral_code }] = data as Array<{ referral_code: string }>;
 
+
+
   return (
     <HomeContainer>
+      {/* <Confetti width={500} height={500} /> */}
       <div className='pb-40'>
         <div className='max-w-lg w-full bg-black/80 backdrop-blur text-white p-4 rounded-2xl gap-x-8 mx-auto'>
           <h3 className='font-semibold mt-4 text-xl'>360 Beta program </h3>
@@ -34,22 +40,7 @@ export default async function Referral() {
               <label htmlFor='referral_link' className='text-xs text-cyan-400'>
                 Referral Url
               </label>
-              <div className='w-full bg-white rounded-lg overflow-hidden flex items-center'>
-                <input
-                  type={'text'}
-                  name='referral_link'
-                  value={`${referral_code || ''}`}
-                  className='py-2 flex-1 border-r outline-none px-4 text-black'
-                  placeholder='Password'
-                  disabled
-                />
-                <button className='flex justify-center w-10'>
-                  <FontAwesomeIcon
-                    icon={faCopy}
-                    className={'h-4 w-4 text-black'}
-                  />
-                </button>
-              </div>
+              <CopyReferral referral_code={referral_code} />
             </div>
           </div>
         </div>

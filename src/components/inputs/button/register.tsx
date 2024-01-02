@@ -9,9 +9,9 @@ export const RegisterButton = () => {
     <button
       type='submit'
       disabled={pending}
-      className='bg-black w-full text-sm py-2 rounded-lg'
+      className='bg-black w-full text-sm py-2 rounded-lg flex justify-center'
     >
-      {pending ? 'Loading...' : ' Register'}
+      {pending ? <img src="https://s2.svgbox.net/loaders.svg?ic=tail-spin&color=fff" width="20" height="20" /> : ' Register'}
     </button>
   );
 };

@@ -32,6 +32,9 @@ export default function Home({
           <br />
           please log in
         </h3>
+        <div>
+          {/* <Link>Register</Link> */}
+        </div>
         <div className='rounded-3xl shadow-lg greenToPurple p-6 max-w-xl '>
           <h3 className='text-4xl font-black mb-5'>Get early access</h3>
           {searchParams.msg && (
@@ -39,28 +42,35 @@ export default function Home({
               {searchParams.msg}
             </p>
           )}
-          <form action={signUp}>
-            <div className='space-y-2 text-black'>
+          <form>
+            {/* <div className='space-y-2 text-black'>
               <input
                 type='email'
                 name='email'
                 className='bg-white py-2.5 rounded-lg px-4 w-full mb-5'
                 placeholder='you@example.com'
-                required
+                disabled
+              // required
               />
               <input
                 type='password'
                 className='bg-white py-2.5 rounded-lg px-4 w-full mb-5'
                 name='password'
                 placeholder='••••••••'
-                required
+                disabled
+              // required
               />
-            </div>
+            </div> */}
             <div className='w-full mt-2'>
-              <RegisterButton />
-              <button type='button' className='text-gray-300 text-sm mt-4'>
+              {/* <RegisterButton /> */}
+              <Link href={'/account/signup'} className='w-full text-sm font-bold'>
+                <button className='w-full bg-black py-2.5 rounded-lg'>
+                  Register
+                </button>
+              </Link>
+              <Link href={'/account/login'} type='button' className='text-gray-300 text-sm mt-4'>
                 Signed Up before? Check your status
-              </button>
+              </Link>
             </div>
           </form>
         </div>

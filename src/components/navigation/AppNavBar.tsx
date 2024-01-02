@@ -19,7 +19,7 @@ export const AppNavBar = async () => {
 
   return (
     <nav
-      className='flex items-center justify-between p-6 lg:px-8'
+      className='flex items-center justify-between p-6 lg:px-8 fixed w-full'
       aria-label='Global'
     >
       <div className='flex lg:flex-1'>

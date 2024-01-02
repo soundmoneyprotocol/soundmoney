@@ -15,6 +15,7 @@ export const PasswordInput = () => {
         placeholder='••••••••'
       />
       <button
+        type='button'
         onClick={() => setShowPassword(!showPassword)}
         className='flex justify-center w-10'
       >

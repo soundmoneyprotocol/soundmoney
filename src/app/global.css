@@ -8,6 +8,9 @@
 .darkHeroBg {
   background-image: url('/images/home/base_d.jpg');
 }
+.lightPrivacyBg {
+  background-image: url('/images/playlist/base_l.jpg');
+}
 
 .blueToPurple {
   color: white;
