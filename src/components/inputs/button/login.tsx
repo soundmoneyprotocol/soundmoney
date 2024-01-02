@@ -1,7 +1,8 @@
 'use client';
 
+import { createClient } from '@/utils/supabase/client';
 import { useRouter } from 'next/navigation';
-import React from 'react';
+import React, { useState } from 'react';
 import { useFormStatus } from 'react-dom';
 
 export const LoginButton = () => {
@@ -30,9 +31,31 @@ export const NavBarLoginBtn = () => {
 };
 
 export const NavBarLogoutBtn = () => {
+  const [pending, setPending] = useState(false);
+
+  const supabase = createClient();
+  const router = useRouter();
+
+  const handleLogout = async () => {
+    setPending(true);
+    const { error } = await supabase.auth.signOut();
+
+    if (error) {
+      setPending(false);
+      console.error(error);
+      return;
+    }
+
+    setPending(false);
+    return router.refresh();
+  };
+
   return (
-    <button className='rounded-xl py-2.5 font-semibold font-mont greenToPurple px-3 hover:scale-[0.98] duration-200 transition'>
-      Log out
+    <button
+      className='rounded-xl py-2.5 font-semibold font-mont greenToPurple px-3 hover:scale-[0.98] duration-200 transition'
+      onClick={handleLogout}
+    >
+      {pending ? 'Logging out' : 'Log out'}
     </button>
   );
 };

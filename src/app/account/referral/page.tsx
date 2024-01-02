@@ -22,7 +22,6 @@ export default async function Referral() {
     .select('referral_code')
     .eq('owner_user_id', user.id);
 
-  console.log({ data, error });
   const [{ referral_code }] = data as Array<{ referral_code: string }>;
 
   return (

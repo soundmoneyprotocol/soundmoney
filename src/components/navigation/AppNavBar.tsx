@@ -6,16 +6,9 @@ import { cookies } from 'next/headers';
 
 export const AppNavBar = async () => {
   const supabase = createClient(cookies());
-
-  async function isAuth() {
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-    if (user) {
-      return true;
-    }
-    return false;
-  }
+  const {
+    data: { session },
+  } = await supabase.auth.getSession();
 
   return (
     <nav
@@ -38,7 +31,7 @@ export const AppNavBar = async () => {
         <button className='rounded-xl py-2.5 font-semibold font-mont '>
           Claim Drop
         </button>
-        {(await isAuth()) ? <NavBarLogoutBtn /> : <NavBarLoginBtn />}
+        {session?.user ? <NavBarLogoutBtn /> : <NavBarLoginBtn />}
       </div>
     </nav>
   );
