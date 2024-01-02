@@ -1,4 +1,5 @@
 import { HomeContainer } from '@/components/content';
+import siteUrl from '@/utils/siteUrl';
 import { createClient } from '@/utils/supabase/server';
 import { faCopy } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -38,7 +39,10 @@ export default async function Referral() {
                 <input
                   type={'text'}
                   name='referral_link'
-                  value={`${referral_code || ''}`}
+                  value={`${
+                    siteUrl(`/account/signup?referral_code=${referral_code}`) ||
+                    ''
+                  }`}
                   className='py-2 flex-1 border-r outline-none px-4 text-black'
                   placeholder='Password'
                   disabled

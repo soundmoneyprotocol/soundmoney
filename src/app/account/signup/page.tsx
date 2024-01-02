@@ -6,7 +6,7 @@ import React from 'react';
 export default function Signup({
   searchParams,
 }: {
-  searchParams: { msg: string };
+  searchParams: { msg: string; referral_code: string };
 }) {
   return (
     <HomeContainer>
@@ -38,6 +38,7 @@ export default function Signup({
                 type='text'
                 className='bg-white py-2.5 rounded-lg px-4 w-full mb-5'
                 name='referral_code'
+                defaultValue={searchParams.referral_code || ''}
                 placeholder='Got a referral code?'
               />
             </div>
