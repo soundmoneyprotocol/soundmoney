@@ -6,6 +6,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons/faCheck';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { cookies, headers } from 'next/headers';
 import React, { useState } from 'react';
+import Confetti from 'react-confetti';
 
 
 export default async function Referral() {
@@ -26,6 +27,7 @@ export default async function Referral() {
 
   return (
     <HomeContainer>
+      {/* <Confetti width={500} height={500} /> */}
       <div className='pb-40'>
         <div className='max-w-lg w-full bg-black/80 backdrop-blur text-white p-4 rounded-2xl gap-x-8 mx-auto'>
           <h3 className='font-semibold mt-4 text-xl'>360 Beta program </h3>
