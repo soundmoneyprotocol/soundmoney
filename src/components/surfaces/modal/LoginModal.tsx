@@ -5,12 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 import { Modal } from './Modal';
 import { useFormState, useFormStatus } from 'react-dom';
-import { signIn } from '@/lib/actions';
 
 export const LoginModal = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const [state, formAction] = useFormState(signIn, { msg: '' });
   const { pending } = useFormStatus();
 
   function openModal() {
@@ -35,10 +33,10 @@ export const LoginModal = () => {
         <div className='max-w-2xl w-full flex bg-black/80 backdrop-blur text-white p-4 rounded-2xl gap-x-8 mx-auto'>
           <div className=' w-1/2'>
             <h2 className='text-4xl mt-4'>Login</h2>
-            {state?.msg && (
+            {/* {state?.msg && (
               <p className='text-white text-center'>{state.msg}</p>
-            )}
-            <form action={formAction}>
+            )} */}
+            <form>
               <div className='flex flex-col gap-y-1 my-4'>
                 <label htmlFor='email' className='text-xs text-cyan-400'>
                   Email
