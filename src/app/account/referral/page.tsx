@@ -1,12 +1,10 @@
 import CopyReferral from '@/components/CopyReferral';
 import { HomeContainer } from '@/components/content';
+import siteUrl from '@/utils/siteUrl';
 import { createClient } from '@/utils/supabase/server';
-import { faCopy } from '@fortawesome/free-regular-svg-icons';
-import { faCheck } from '@fortawesome/free-solid-svg-icons/faCheck';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { cookies, headers } from 'next/headers';
-import React, { useState } from 'react';
-
+import { cookies } from 'next/headers';
+import { redirect } from 'next/navigation';
+import React from 'react';
 
 export default async function Referral() {
   const supabase = createClient(cookies());
@@ -14,15 +12,18 @@ export default async function Referral() {
   const {
     data: { user },
   } = await supabase.auth.getUser();
+
+  if (!user?.id) {
+    return redirect('/account/login');
+  }
+
   const { data, error } = await supabase
     .from('referrals')
     .select('referral_code')
-    .eq('owner_user_id', user?.id);
+    .eq('owner_user_id', user.id);
 
   console.log({ data, error });
   const [{ referral_code }] = data as Array<{ referral_code: string }>;
-
-
 
   return (
     <HomeContainer>
@@ -40,7 +41,12 @@ export default async function Referral() {
               <label htmlFor='referral_link' className='text-xs text-cyan-400'>
                 Referral Url
               </label>
-              <CopyReferral referral_code={referral_code} />
+              <CopyReferral
+                referral_code={`${
+                  siteUrl(`/account/signup?referral_code=${referral_code}`) ||
+                  ''
+                }`}
+              />
             </div>
           </div>
         </div>
