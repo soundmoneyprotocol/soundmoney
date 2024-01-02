@@ -11,7 +11,7 @@ export const ThemeButton = () => {
   const { setTheme } = themeStore();
 
   return (
-    <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+    <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} disabled>
       {theme === 'light' ? (
         <FontAwesomeIcon icon={faMoon} className={'h-4 w-4 text-teal-500'} />
       ) : (
