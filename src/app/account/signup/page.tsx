@@ -12,9 +12,9 @@ export default function Signup({
 }) {
   return (
     <HomeContainer>
-      <section className=' pb-40 px-20'>
+      <section className='pb-40 md:px-20'>
         <div className='rounded-3xl shadow-lg greenToPurple p-6 max-w-xl mx-auto'>
-          <h3 className='text-4xl font-black mb-5'>Get early access</h3>
+          <h3 className='md:text-4xl text-3xl font-black mb-5'>Get early access</h3>
           {searchParams.msg ? (
             <>
               <p className='mt-4 p-4 text-black text-center'>

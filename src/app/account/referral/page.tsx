@@ -28,7 +28,7 @@ export default async function Referral() {
   return (
     <HomeContainer>
       {/* <Confetti width={500} height={500} /> */}
-      <div className='pb-40'>
+      <div className='pb-40 pt-40 md:pt-0'>
         <div className='max-w-lg w-full bg-black/80 backdrop-blur text-white p-4 rounded-2xl gap-x-8 mx-auto'>
           <h3 className='font-semibold mt-4 text-xl'>360 Beta program </h3>
           <p className='text-sm mt-6 mb-5'>
@@ -42,10 +42,9 @@ export default async function Referral() {
                 Referral Url
               </label>
               <CopyReferral
-                referral_code={`${
-                  siteUrl(`/account/signup?referral_code=${referral_code}`) ||
+                referral_code={`${siteUrl(`/account/signup?referral_code=${referral_code}`) ||
                   ''
-                }`}
+                  }`}
               />
             </div>
           </div>
