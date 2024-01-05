@@ -3,6 +3,7 @@ import { HomeContainer } from '@/components/content';
 import siteUrl from '@/utils/siteUrl';
 import { createClient } from '@/utils/supabase/server';
 import { cookies } from 'next/headers';
+import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import React from 'react';
 
@@ -45,6 +46,11 @@ export default async function Referral() {
                   ''
                   }`}
               />
+            </div>
+            <div className='w-full pt-4'>
+              <button className='w-full py-2 rounded-md bg-teal-600 text-white'>
+                <Link href={'/payment'}>Make Payment</Link>
+              </button>
             </div>
           </div>
         </div>
