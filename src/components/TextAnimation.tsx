@@ -25,14 +25,14 @@ const TextAnimation = () => {
     }, []);
 
     return (
-        <h1>
-            <TextTransition springConfig={presets.molasses} inline={true} className='text-wrap whitespace-nowrap font-bold'>{TEXTS[index % TEXTS.length]}</TextTransition>
+        <>
+            <TextTransition springConfig={presets.molasses} inline={true} className='uppercase font-black whitespace-normal tracking-tighter md:tracking-normal md:text-2xl'>{TEXTS[index % TEXTS.length]}</TextTransition>
             {/* {`${TEXTS[randomIndex]}`.split("").map((txt, i) => (
                 <TextTransition key={i} delay={i * 100} className="big" inline>
                     {txt}
                 </TextTransition>
             ))} */}
-        </h1>
+        </>
     );
 }
 

@@ -36,9 +36,11 @@ export default function Home({
         <div>
           {/* <Link>Register</Link> */}
         </div>
-        <div className='rounded-3xl shadow-lg greenToPurple p-6 max-w-xl'>
-          <h3 className='text-4xl font-black mb-5'>Get early access</h3>
+        <div className='rounded-3xl shadow-lg greenToPurple md:p-6 p-4 max-w-xl'>
+          {/* <h3 className='text-4xl font-black mb-5'>Get early access</h3> */}
+          <div className='mb-4'>
           <TextAnimation />
+          </div>
           {searchParams.msg && (
             <p className='mt-4 p-4 text-black text-center'>
               {searchParams.msg}
