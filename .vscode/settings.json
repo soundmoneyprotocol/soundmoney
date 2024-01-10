@@ -4,6 +4,8 @@
   ],
   "deno.lint": true,
   "deno.unstable": true,
+  "editor.formatOnSave": true,
+  "deno.importMap": "../supabase/functions/import_map.json",
   "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   }

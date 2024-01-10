@@ -21,6 +21,7 @@ export default async function Payment() {
   const paymentIntent = await stripe.paymentIntents.create({
     amount: 9900,
     currency: 'usd',
+    receipt_email: user.email,
   });
 
   const clientSecret = paymentIntent.client_secret;
