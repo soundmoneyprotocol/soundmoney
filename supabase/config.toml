@@ -151,4 +151,3 @@ s3_secret_key = "env(S3_SECRET_KEY)"
 # Functions
 [functions.stripe-webhooks]
 verify_jwt = false
-import_map = './functions/import_map.json'

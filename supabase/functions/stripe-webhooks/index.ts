@@ -2,8 +2,8 @@
 // https://deno.land/manual/getting_started/setup_your_environment
 // This enables autocomplete, go to definition, etc.
 
-import Stripe from "stripe";
-import { supabaseClient } from "../_utils/index.ts";
+import Stripe from "npm:stripe@14.11.0";
+import { supabaseClient } from "../_utils/supabaseClient.ts";
 
 const stripe = new Stripe(Deno.env.get("STRIPE_API_KEY") ?? "", {
   httpClient: Stripe.createFetchHttpClient(),
@@ -47,6 +47,7 @@ Deno.serve(async (req) => {
       receivedEvent.id,
       requestOptions,
     );
+    console.log("retrievedEvent: ", retrievedEvent);
   } catch (err) {
     console.error(err);
     return new Response(err.message, { status: 400 });
@@ -59,17 +60,30 @@ Deno.serve(async (req) => {
       console.log("PaymentIntentSucceeded: ", paymentIntentSucceeded);
       const { receipt_email, amount, currency, id, status } =
         paymentIntentSucceeded;
-      // write to the db to store the payment details
-      const { data: user_id, error: user_id_err } = await supabaseClient.from(
-        "auth.users",
-      ).select("id").eq("email", receipt_email);
+
+      if (!receipt_email) {
+        return new Response("Receipt email not found.", { status: 404 });
+      }
+
+      const { data: user_id_data, error: user_id_err } = await supabaseClient
+        .from(
+          "auth.users",
+        ).select("id").eq("email", receipt_email);
 
       if (user_id_err) {
-        console.error(`User with email: ${receipt_email} not found`);
-        return new Response(`User with email: ${receipt_email} not found`, {
+        console.error(user_id_err);
+        return new Response(user_id_err.message, {
           status: 400,
         });
       }
+
+      if (user_id_data.length === 0) {
+        return new Response(`User with email: ${receipt_email} not found`, {
+          status: 404,
+        });
+      }
+
+      const [{ id: user_id }] = user_id_data;
 
       // expiration date - A year from now
       const currentDate = new Date();
@@ -77,26 +91,29 @@ Deno.serve(async (req) => {
       oneYearFromNow.setFullYear(currentDate.getFullYear() + 1);
       const expiration_date = oneYearFromNow.toISOString();
 
-      const { error: new_payment_err } = await supabaseClient.from("payments")
-        .insert({
-          user_id,
-          customer_email: receipt_email,
-          amount,
-          currency,
-          payment_status: status,
-          stripe_payment_intent_id: id,
-          expiration_date,
-        });
+      const { data: new_payment_data, error: new_payment_err } =
+        await supabaseClient.from("payments")
+          .insert({
+            amount,
+            currency,
+            customer_email: receipt_email,
+            expiration_date,
+            payment_status: status,
+            stripe_payment_intent_id: id,
+            user_id,
+          }).select();
 
       if (new_payment_err) {
         console.error("Failed to add new payment", new_payment_err);
         return new Response("Failed to add new payment", { status: 400 });
       }
-      break;
+
+      console.log("New payment added: ", new_payment_data);
+      return Response.json(new_payment_data, { status: 201 });
     }
 
     default: {
-      console.log(`Unhandled event type ${receivedEvent.type}`);
+      console.log(`Unhandled event type: ${receivedEvent.type}`);
       break;
     }
   }
