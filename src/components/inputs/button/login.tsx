@@ -10,7 +10,7 @@ export const LoginButton = () => {
   return (
     <button
       type='submit'
-      className='greenToPurple py-2 px-6 rounded-xl w-[97.61px] flex justify-center'
+      className={`greenToPurple py-2 px-6 rounded-xl ${pending ? 'w-[97.61px] flex justify-center' : ''} `}
       disabled={pending}
     >
       {pending ? <img src="https://s2.svgbox.net/loaders.svg?ic=tail-spin&color=fff" width="20" height="20" /> : 'Log in'}
@@ -47,13 +47,13 @@ export const NavBarLogoutBtn = () => {
     }
 
     setPending(false);
-     router.push('/');
+    router.push('/');
     return router.refresh()
   };
 
   return (
     <button
-      className='rounded-xl py-2.5 font-semibold font-mont flex justify-center greenToPurple mx-auto px-3 w-[87.34px] hover:scale-[0.98] duration-200 transition'
+      className={`rounded-xl py-2.5 font-semibold font-mont ${pending ? 'flex justify-center w-[87.34px]' : ''}  greenToPurple mx-auto px-3 hover:scale-[0.98] duration-200 transition`}
       onClick={handleLogout}
       disabled={pending}
     >
