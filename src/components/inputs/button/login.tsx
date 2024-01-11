@@ -47,7 +47,7 @@ export const NavBarLogoutBtn = () => {
     }
 
     setPending(false);
-    return router.refresh();
+    return router.push('/');
   };
 
   return (
