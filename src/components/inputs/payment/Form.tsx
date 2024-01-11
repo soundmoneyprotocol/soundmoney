@@ -51,6 +51,7 @@ export const PaymentForm = () => {
       return;
     }
 
+    // remove this...not working in app directory
     const clientSecret = new URLSearchParams(window.location.search).get(
       'payment_intent_client_secret'
     );
@@ -90,13 +91,7 @@ export const PaymentForm = () => {
           id='submit'
           className='w-full my-6 bg-blue-600 text-white rounded-md py-4 font-bold'
         >
-          <span id='button-text'>
-            {isLoading ? (
-              <div className='spinner' id='spinner'></div>
-            ) : (
-              'Pay now'
-            )}
-          </span>
+          <span id='button-text'>{isLoading ? 'Loading...' : 'Pay now'}</span>
         </button>
         {/* Show any error or success messages */}
         {message && <div id='payment-message'>{message}</div>}
