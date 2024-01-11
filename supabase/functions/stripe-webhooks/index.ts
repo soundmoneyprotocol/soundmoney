@@ -65,26 +65,6 @@ Deno.serve(async (req) => {
         return new Response("Receipt email not found.", { status: 404 });
       }
 
-      const { data: user_id_data, error: user_id_err } = await supabaseClient
-        .from(
-          "auth.users",
-        ).select("id").eq("email", receipt_email);
-
-      if (user_id_err) {
-        console.error(user_id_err);
-        return new Response(user_id_err.message, {
-          status: 400,
-        });
-      }
-
-      if (user_id_data.length === 0) {
-        return new Response(`User with email: ${receipt_email} not found`, {
-          status: 404,
-        });
-      }
-
-      const [{ id: user_id }] = user_id_data;
-
       // expiration date - A year from now
       const currentDate = new Date();
       const oneYearFromNow = new Date(currentDate);
@@ -100,7 +80,6 @@ Deno.serve(async (req) => {
             expiration_date,
             payment_status: status,
             stripe_payment_intent_id: id,
-            user_id,
           }).select();
 
       if (new_payment_err) {
