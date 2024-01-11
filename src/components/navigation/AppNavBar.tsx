@@ -28,10 +28,10 @@ export const AppNavBar = async () => {
 
       <div className='flex gap-x-8 items-center'>
         <ThemeButton />
-        {/* <button className='rounded-xl py-2.5 font-semibold font-mont '>
-          Claim Drop
-        </button>
-  */}
+        {session?.user ? <Link href={'referral'} className='rounded-xl bg-white py-2.5 px-3 font-semibold font-mont '>
+          Referral Code
+        </Link> : ''}
+
         {session?.user ? <NavBarLogoutBtn /> : <NavBarLoginBtn />}
       </div>
     </nav>
