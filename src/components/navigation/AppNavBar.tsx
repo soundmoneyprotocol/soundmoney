@@ -28,7 +28,7 @@ export const AppNavBar = async () => {
 
       <div className='flex gap-x-8 items-center'>
         <ThemeButton />
-        {session?.user ? <Link href={'referral'} className='rounded-xl bg-white py-2.5 px-3 font-semibold font-mont '>
+        {session?.user ? <Link href={'/account/referral'} className='rounded-xl bg-white py-2.5 px-3 font-semibold font-mont '>
           Referral Code
         </Link> : ''}
 
