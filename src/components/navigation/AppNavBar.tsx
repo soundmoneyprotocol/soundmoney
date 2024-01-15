@@ -19,9 +19,9 @@ export const AppNavBar = async () => {
         <Link href='/' className='-m-1.5 p-1.5'>
           <span className='sr-only'>360NFT</span>
           <img
-            className='h-8 w-auto'
-            src='/images/logo_l.svg'
-            alt='360NFT_LOGO'
+            className='h-8 w-auto backdrop-blur-[1px]'
+            src='/images/TrapCard.png'
+            alt='Trapcard_LOGO'
           />
         </Link>
       </div>
