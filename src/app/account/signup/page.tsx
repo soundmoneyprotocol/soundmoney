@@ -48,6 +48,7 @@ export default function Signup({
                   name='referral_code'
                   defaultValue={searchParams.referral_code || ''}
                   placeholder='Got a referral code?'
+                  disabled={!!searchParams?.referral_code}
                 />
               </div>
               <div className='w-full mt-2'>

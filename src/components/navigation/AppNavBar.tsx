@@ -19,19 +19,19 @@ export const AppNavBar = async () => {
         <Link href='/' className='-m-1.5 p-1.5'>
           <span className='sr-only'>360NFT</span>
           <img
-            className='h-8 w-auto'
-            src='/images/logo_l.svg'
-            alt='360NFT_LOGO'
+            className='h-8 w-auto backdrop-blur-[1px]'
+            src='/images/TrapCard.png'
+            alt='Trapcard_LOGO'
           />
         </Link>
       </div>
 
       <div className='flex gap-x-8 items-center'>
         <ThemeButton />
-        {/* <button className='rounded-xl py-2.5 font-semibold font-mont '>
-          Claim Drop
-        </button>
-  */}
+        {session?.user ? <Link href={'/account/referral'} className='rounded-xl bg-white py-2.5 px-3 font-semibold font-mont '>
+          Referral Code
+        </Link> : ''}
+
         {session?.user ? <NavBarLogoutBtn /> : <NavBarLoginBtn />}
       </div>
     </nav>
