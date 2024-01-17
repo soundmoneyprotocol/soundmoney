@@ -52,7 +52,7 @@ export default async function Payment({
   const clientSecret = paymentIntent.client_secret;
 
   if (!clientSecret) {
-    throw Error("No payment intent.");
+    throw Error("No payment intent. Please try again");
   }
 
   return (
