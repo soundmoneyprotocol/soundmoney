@@ -105,7 +105,7 @@ const AboutUs = () => {
           </div>
           <div className='flex flex-col items-center justify-center'>
             <img
-              src="https://yt3.googleusercontent.com/Es0QE7HydMYbkQ5LtshXLwAH25FVEo4X918-6x2-OYFoQ0zbAcxB2ypzF52RCiIW6IDOGa4vYg=s900-c-k-c0x00ffffff-no-rj"
+              src="https://media.licdn.com/dms/image/C4D03AQG5I1C-FzYjfw/profile-displayphoto-shrink_400_400/0/1614882349776?e=1710979200&v=beta&t=qp6m-312zi_zGAeE8aQmPR79TMCm4Xt4djFGgvsayH4"
               alt="artist"
               className='w-44 h-44 rounded-full object-cover object-left'
             />
@@ -146,7 +146,7 @@ const AboutUs = () => {
           of the blockchain.
         </h4>
         <div className='py-8 pb-20'>
-        <Link href={'/account/signup'} className=' justify-center py-2.5 items-center w-44 gap-x-6 orangeToPink group flex'>Get Started <p className='group-hover:translate-x-1 text-lg transition-all duration-300'>&rarr;</p></Link>
+        <Link href={'/account/signup'} className=' justify-center py-2.5 items-center w-44 gap-x-4 orangeToPink group flex'>Get Started <p className='group-hover:translate-x-2 text-lg transition-all duration-300 ease-in-out'>&rarr;</p></Link>
         </div>
       </section>
     </main>
