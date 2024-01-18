@@ -116,7 +116,7 @@ const AboutUs = () => {
           </div>
           <div className='flex flex-col items-center justify-center'>
             <img
-              src="https://www.billboard.com/wp-content/uploads/media/Paul-Blair-DJ-White-Shadow-2016-press-billboard-650.jpg?w=650&h=430&crop=1"
+              src="https://www.thehypemagazine.com/wp-content/uploads/2023/02/Murph-2.jpg"
               alt="artist"
               className='w-44 h-44 rounded-full object-cover'
             />
@@ -127,7 +127,7 @@ const AboutUs = () => {
           </div>
           <div className='flex flex-col items-center justify-center'>
             <img
-              src="https://www.thehypemagazine.com/wp-content/uploads/2023/02/Murph-2.jpg"
+              src="https://charts-static.billboard.com/img/1995/02/mystikal-y54-180x180.jpg"
               alt="artist"
               className='w-44 h-44 rounded-full object-cover'
             />
