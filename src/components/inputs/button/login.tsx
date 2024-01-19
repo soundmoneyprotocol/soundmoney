@@ -53,7 +53,7 @@ export const NavBarLogoutBtn = () => {
 
   return (
     <button
-      className={`rounded-xl py-2.5 font-semibold font-mont ${pending ? 'flex justify-center w-[87.34px]' : ''}  greenToPurple mx-auto px-3 hover:scale-[0.98] duration-200 transition`}
+      className={`rounded-xl py-2.5 font-semibold font-mont ${pending ? 'flex justify-center md:w-[87.34px]' : ''}  greenToPurple mx-auto px-3 hover:scale-[0.98] duration-200 transition`}
       onClick={handleLogout}
       disabled={pending}
     >
