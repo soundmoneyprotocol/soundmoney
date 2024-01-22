@@ -4,6 +4,7 @@ import { AppNavBar } from '@/components/navigation';
 import Link from 'next/link';
 import { Montserrat } from 'next/font/google';
 import localFont from 'next/font/local';
+import { Metadata } from 'next';
 
 const mont = Montserrat({
   subsets: ['latin'],
@@ -22,6 +23,40 @@ const gilroy = localFont({
   display: 'swap',
   variable: '--font-gilroy',
 });
+export const metadata: Metadata = {
+  // viewport: { width: 'device-width', initialScale: 1 },
+  title: {
+    default: 'Trapcard',
+    template: '%s | Trapcard',
+  },
+  description:
+    'Experience the future of music streaming with Web2.5 - where transparent blockchain transactions empower artists and reward listeners. Dive into a world of fair compensation, exclusive perks, and seamless crypto payments. Join the revolution and amplify your music journey today!',
+  keywords:
+    'Crypto Beats, Blockchain Harmony, Decentralized Soundwaves, Crypto Grooves, FairPlay Music, Artist Empowerment Hub, Transparent Tunescapes, CryptoTunes Revolution, Peer-to-Peer Melodies, Web2.5 Sonic Experience, CryptoSounds Hub, Seamless Rhythms, EmpowerArt Beats, EmpowerArt Beats, Digital Audio Freedom, CryptoWave Jams, Harmony in Blockchain, EmpowerArt Beats, NxtLevel Music Stream Decentralized Vibes, FairNotes Streaming, Web2.5, Trapcard, Traptokens, Trap',
+  twitter: {
+    title: 'Trapcard',
+    card: 'summary_large_image',
+    description:
+      'Experience the future of music streaming with Web2.5 - where transparent blockchain transactions empower artists and reward listeners. Dive into a world of fair compensation, exclusive perks, and seamless crypto payments. Join the revolution and amplify your music journey today!',
+    site: '@Trapcard',
+    creator: '@Trapcard',
+    images:
+      '/images/home/base_d.jpg',
+  },
+  openGraph: {
+    type: 'website',
+    url: 'https://trapcard.app',
+    title: 'Trapcard',
+    description:
+      'Experience the future of music streaming with Web2.5 - where transparent blockchain transactions empower artists and reward listeners. Dive into a world of fair compensation, exclusive perks, and seamless crypto payments. Join the revolution and amplify your music journey today!',
+    siteName: 'Trapcard',
+    images: [
+      {
+        url: '/images/home/base_d.jpg',
+      },
+    ],
+  },
+};
 
 export default function RootLayout({
   children,

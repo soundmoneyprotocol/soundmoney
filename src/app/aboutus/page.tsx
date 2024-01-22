@@ -138,6 +138,50 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+      <section className='py-20 bg-gray-50'>
+        <h2 className='textGradient md:text-7xl text-4xl font-gilroy text-center font-bold leading-relaxed'>Learn More</h2>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 my-12 gap-8 md:px-12 px-6'>
+          <Link href={'https://benitoderosario.medium.com/litepaper-protocolo-trapcard-40164ded17c1'} className='border shadow-md flex items-center p-4 gap-x-2 group space-y-4 col-span-1 rounded-lg'>
+            <div className='w-2/5 overflow-hidden rounded-lg h-full'>
+              <img 
+              src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*SuAhTBxHW3bI8f3zRCJn8A.png" 
+              alt=""
+              className='group-hover:scale-105 transition duration-300 w-full h-full object-cover'
+              />
+            </div>
+            <div className='w-3/5 space-y-3'>
+              <h3 className='forn-bold font-bold text-lg leading-tight'>LitePaper: Protocolo TrapCard</h3>
+              <p className='text-xs'>TrapCard features an innovative mood-based sentiment analysis algorithmic playlist and...</p>
+            </div>
+          </Link>
+          <Link href={'https://medium.com/@benitoderosario/introducing-tba-tcrs-80d8a7d6950a'} className='border shadow-md flex items-center p-4 gap-x-2 group space-y-4 col-span-1 rounded-lg'>
+            <div className='w-2/5 overflow-hidden rounded-lg h-full'>
+              <img 
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*GVIHE4phr30i_TSM0ol-ug.png" 
+              alt=""
+              className='group-hover:scale-105 transition duration-300 w-full object-cover object-left h-full'
+              />
+            </div>
+            <div className='w-3/5 space-y-3'>
+              <h3 className='forn-bold font-bold text-lg leading-tight'>Introducing TBA TCRs</h3>
+              <p className='text-xs'>In the ever-evolving landscape of blockchain technology and decentralized applications, the TrapCard...</p>
+            </div>
+          </Link>
+          <Link href={'https://benitoderosario.medium.com/tarjeta-cripto-dinero-b833c98af1f9'} className='border shadow-md flex items-center p-4 gap-x-2 group space-y-4 col-span-1 rounded-lg'>
+            <div className='w-2/5 overflow-hidden rounded-lg h-full'>
+              <img 
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*hODvezVHuLI6RSveq-MJZQ.png" 
+              alt=""
+              className='group-hover:scale-105 transition duration-300 w-full object-cover object-left h-full'
+              />
+            </div>
+            <div className='w-3/5 space-y-3'>
+              <h3 className='forn-bold font-bold text-lg leading-tight'>Crypto Impact — Music Festivals</h3>
+              <p className='text-xs'>Web3 Startups have digital assets, tokens and NFTs, but the daily cash flow for business needs...</p>
+            </div>
+          </Link>
+        </div>
+      </section>
       <section className='py-32 bgCta md:px-12 px-6'>
         <h2 className='text-white text-6xl font-extrabold font-gilroy'>Ready to Redefine Your Experience?</h2>
         <h4 className='text-4xl mt-12 font-bold md:text-white text-cyan-400'>Express excitement for the future <br />
