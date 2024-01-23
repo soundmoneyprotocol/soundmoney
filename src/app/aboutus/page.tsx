@@ -8,13 +8,13 @@ const AboutUs = () => {
       <section className='relative bgAnimation h-screen md:pt-32 pt-64'>
         <div className='md:px-12 px-6 space-y-5'>
           <h1 className='md:text-6xl text-4xl font-extrabold font-druk'>
-            <span className='bg-clip-text text-white/40'>Embrace</span> the
+            <span className='bg-clip-text text-white/40'>Welcome </span>to
             <br />
-            Power of <span className='bg-clip-text text-white/40'>Streaming Payments</span> with
+            the <span className='bg-clip-text text-white/40'>Future</span> of
             <br />
-            <span className='bg-clip-text text-white/40'>Sound Money</span>
+            Music <span className='bg-clip-text text-white/40'>Streaming</span>
           </h1>
-          <p className='text-white font-gilroy text-xl'>Embrace the Power of Crypto Payments with Web2.5!</p>
+          <p className='text-white font-gilroy text-xl'>Embrace the Power of Streaming Payments with Sound Money!</p>
         </div>
       </section>
       <section className='py-20 md:px-12 px-6'>

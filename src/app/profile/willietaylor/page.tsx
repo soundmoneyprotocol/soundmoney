@@ -4,7 +4,7 @@ import React from 'react'
 
 const WillieTaylor = () => {
     return (
-        <div className='mt-24'>
+        <div className='md:mt-24 mt-8'>
             <div className='relative'>
                 <div className='w-full relative h-[13rem]'>
                     <Image fill src="/images/willie.jpg" alt="" className='object-cover' />
