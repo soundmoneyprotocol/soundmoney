@@ -8,13 +8,13 @@ const AboutUs = () => {
       <section className='relative bgAnimation h-screen md:pt-32 pt-64'>
         <div className='md:px-12 px-6 space-y-5'>
           <h1 className='md:text-6xl text-4xl font-extrabold font-druk'>
-            <span className='bg-clip-text text-white/40'>Welcome</span> to
+            <span className='bg-clip-text text-white/40'>Welcome </span>to
             <br />
             the <span className='bg-clip-text text-white/40'>Future</span> of
             <br />
             Music <span className='bg-clip-text text-white/40'>Streaming</span>
           </h1>
-          <p className='text-white font-gilroy text-xl'>Embrace the Power of Crypto Payments with Web2.5!</p>
+          <p className='text-white font-gilroy text-xl'>Embrace the Power of Streaming Payments with Sound Money!</p>
         </div>
       </section>
       <section className='py-20 md:px-12 px-6'>
@@ -136,6 +136,50 @@ const AboutUs = () => {
               <h4 className='text-xs font-extralight'>USA</h4>
             </div>
           </div>
+        </div>
+      </section>
+      <section className='py-20 bg-gray-50'>
+        <h2 className='textGradient md:text-7xl text-4xl font-gilroy text-center font-bold leading-relaxed'>Learn More</h2>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 my-12 gap-8 md:px-12 px-6'>
+          <a rel='noreferrer' target='_blank' href={'https://benitoderosario.medium.com/litepaper-protocolo-trapcard-40164ded17c1'} className='border shadow-md flex items-center p-4 gap-x-2 group space-y-4 col-span-1 rounded-lg'>
+            <div className='w-2/5 overflow-hidden rounded-lg h-full'>
+              <img
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*SuAhTBxHW3bI8f3zRCJn8A.png"
+                alt=""
+                className='group-hover:scale-105 transition duration-300 w-full h-full object-cover'
+              />
+            </div>
+            <div className='w-3/5 space-y-3'>
+              <h3 className='forn-bold font-bold text-lg leading-tight'>LitePaper: Protocolo TrapCard</h3>
+              <p className='text-xs'>TrapCard features an innovative mood-based sentiment analysis algorithmic playlist and...</p>
+            </div>
+          </a>
+          <a rel='noreferrer' target='_blank' href={'https://medium.com/@benitoderosario/introducing-tba-tcrs-80d8a7d6950a'} className='border shadow-md flex items-center p-4 gap-x-2 group space-y-4 col-span-1 rounded-lg'>
+            <div className='w-2/5 overflow-hidden rounded-lg h-full'>
+              <img
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*GVIHE4phr30i_TSM0ol-ug.png"
+                alt=""
+                className='group-hover:scale-105 transition duration-300 w-full object-cover object-left h-full'
+              />
+            </div>
+            <div className='w-3/5 space-y-3'>
+              <h3 className='forn-bold font-bold text-lg leading-tight'>Introducing TBA TCRs</h3>
+              <p className='text-xs'>In the ever-evolving landscape of blockchain technology and decentralized applications, the TrapCard...</p>
+            </div>
+          </a>
+          <a rel='noreferrer' target='_blank' href={'https://benitoderosario.medium.com/tarjeta-cripto-dinero-b833c98af1f9'} className='border shadow-md flex items-center p-4 gap-x-2 group space-y-4 col-span-1 rounded-lg'>
+            <div className='w-2/5 overflow-hidden rounded-lg h-full'>
+              <img
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*hODvezVHuLI6RSveq-MJZQ.png"
+                alt=""
+                className='group-hover:scale-105 transition duration-300 w-full object-cover object-left h-full'
+              />
+            </div>
+            <div className='w-3/5 space-y-3'>
+              <h3 className='forn-bold font-bold text-lg leading-tight'>Crypto Impact — Music Festivals</h3>
+              <p className='text-xs'>Web3 Startups have digital assets, tokens and NFTs, but the daily cash flow for business needs...</p>
+            </div>
+          </a>
         </div>
       </section>
       <section className='py-32 bgCta md:px-12 px-6'>
