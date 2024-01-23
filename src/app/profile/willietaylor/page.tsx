@@ -13,7 +13,7 @@ const WillieTaylor = () => {
                     <div className='w-32 h-32 rounded-full orangeToPink'></div>
                 </div>
             </div>
-            <div className='px-8 flex gap-x-8 items-stretch h-full'>
+            <div className='px-8 flex-wrap flex gap-8 items-stretch h-full'>
                 <div className='pt-16'>
                     <a
                         target='_blank'
@@ -26,7 +26,7 @@ const WillieTaylor = () => {
                 </div>
                 <div className='bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52'>
                     <h2 className='font-extrabold text-2xl text-slate-500'>My playlists</h2>
-                    <div className='flex gap-4 mt-4'>
+                    <div className='flex gap-4 mt-4 flex-wrap'>
                         <a
                             href='https://open.spotify.com/playlist/00rgOm3azNYonH3ccNxv3J' target='_blank'
                             className='group rounded-md border p-3 w-52 shadow-lg greenToPurple flex gap-x-3'>
