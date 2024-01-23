@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const WillieTaylor = () => {
@@ -14,11 +15,16 @@ const WillieTaylor = () => {
             </div>
             <div className='px-8 flex gap-x-8 items-stretch h-full'>
                 <div className='pt-16'>
-                    <h2 className='text-xl font-bold'>Willie Taylor - Write My wrongs</h2>
+                    <a
+                        target='_blank'
+                        href='https://open.spotify.com/user/an4nv0bqvl55hgujrrk4g43id'
+                        className='text-xl font-bold hover:text-cyan-500 text-cyan-600 duration-200'>
+                        @DJBenito304
+                    </a>
                     <p className='text-sm lg:max-w-96 text-justify leading-tight pt-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur itaque voluptatibus exercitationem consequatur molestiae qui numquam recusandae molestias iste dignissimos?</p>
 
                 </div>
-                <div className='bg-gray-50 flex-1 self-stretch py-8 px-6 h-full'>
+                <div className='bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52'>
                     <h2 className='font-extrabold text-2xl text-slate-500'>My playlists</h2>
                     <div className='flex gap-4 mt-4'>
                         <a
