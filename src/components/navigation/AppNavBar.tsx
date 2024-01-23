@@ -12,7 +12,7 @@ export const AppNavBar = async () => {
 
   return (
     <nav
-      className='flex items-center justify-between p-6 lg:px-8 md:fixed w-full'
+      className='flex items-center justify-between p-4 shadow-md lg:px-8 md:fixed w-full bg-white'
       aria-label='Global'
     >
       <div className='flex lg:flex-1'>

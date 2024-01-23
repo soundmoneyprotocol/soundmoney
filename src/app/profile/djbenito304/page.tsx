@@ -10,7 +10,7 @@ const WillieTaylor = () => {
                     <Image fill src="/images/willie.jpg" alt="" className='object-cover' />
                 </div>
                 <div className='absolute -bottom-12 left-12'>
-                    <div className='w-32 h-32 rounded-full orangeToPink'></div>
+                    <img src='https://i.scdn.co/image/ab67706c0000da8479ede4425cadf7e10bfe1308' className='w-32 h-32 rounded-full orangeToPink'></img>
                 </div>
             </div>
             <div className='px-8 flex-wrap flex gap-8 items-stretch h-full'>
@@ -26,7 +26,13 @@ const WillieTaylor = () => {
                 </div>
                 <div className='bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52'>
                     <h2 className='font-extrabold text-2xl text-slate-500'>My playlists</h2>
-                    <div className='flex gap-4 mt-4 flex-wrap'>
+                    <div className='mt-6'>
+                        <iframe src="https://open.spotify.com/embed/playlist/00rgOm3azNYonH3ccNxv3J?utm_source=generator" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                    <div className='mt-6'>
+                        <iframe src="https://open.spotify.com/embed/playlist/0IYuSB3SZOI0VzBuky5WFT?utm_source=generator" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                    {/* <div className='flex gap-4 mt-4 flex-wrap'>
                         <a
                             href='https://open.spotify.com/playlist/00rgOm3azNYonH3ccNxv3J' target='_blank'
                             className='group rounded-md border p-3 w-52 shadow-lg greenToPurple flex gap-x-3'>
@@ -49,7 +55,7 @@ const WillieTaylor = () => {
                             />
                             <h4 className='font-bold'>HoneyTrapchain</h4>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
