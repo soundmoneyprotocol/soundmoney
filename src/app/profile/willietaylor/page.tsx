@@ -8,12 +8,43 @@ const WillieTaylor = () => {
                 <div className='w-full relative h-[13rem]'>
                     <Image fill src="/images/willie.jpg" alt="" className='object-cover' />
                 </div>
-                <div className='absolute -bottom-8 left-12'>
-                    <div className='w-20 h-20 rounded-full orangeToPink'></div>
+                <div className='absolute -bottom-12 left-12'>
+                    <div className='w-32 h-32 rounded-full orangeToPink'></div>
                 </div>
             </div>
-            <div className='px-8 pt-16'>
-                <h2 className='text-xl font-bold'>Willie Taylor - Write My wrongs</h2>
+            <div className='px-8 flex gap-x-8 items-stretch h-full'>
+                <div className='pt-16'>
+                    <h2 className='text-xl font-bold'>Willie Taylor - Write My wrongs</h2>
+                    <p className='text-sm lg:max-w-96 text-justify leading-tight pt-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur itaque voluptatibus exercitationem consequatur molestiae qui numquam recusandae molestias iste dignissimos?</p>
+
+                </div>
+                <div className='bg-gray-50 flex-1 self-stretch py-8 px-6 h-full'>
+                    <h2 className='font-extrabold text-2xl text-slate-500'>My playlists</h2>
+                    <div className='flex gap-4 mt-4'>
+                        <a
+                            href='https://open.spotify.com/playlist/00rgOm3azNYonH3ccNxv3J' target='_blank'
+                            className='group rounded-md border p-3 w-52 shadow-lg greenToPurple flex gap-x-3'>
+                            <img
+                                src="https://s2.svgbox.net/social.svg?ic=spotify&color=000"
+                                width="20"
+                                height="20"
+                                className='animate-bounce group-hover:animate-none'
+                            />
+                            <h4 className='font-bold'>TrapMoney</h4>
+                        </a>
+                        <a
+                            href='https://open.spotify.com/playlist/0IYuSB3SZOI0VzBuky5WFT' target='_blank'
+                            className='group rounded-md border p-3 w-52 shadow-lg orangeToPink flex gap-x-3'>
+                            <img
+                                src="https://s2.svgbox.net/social.svg?ic=spotify&color=000"
+                                width="20"
+                                height="20"
+                                className='animate-bounce group-hover:animate-none'
+                            />
+                            <h4 className='font-bold'>HoneyTrapchain</h4>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -143,10 +143,10 @@ const AboutUs = () => {
         <div className='grid lg:grid-cols-3 md:grid-cols-2 my-12 gap-8 md:px-12 px-6'>
           <a rel='noreferrer' target='_blank' href={'https://benitoderosario.medium.com/litepaper-protocolo-trapcard-40164ded17c1'} className='border shadow-md flex items-center p-4 gap-x-2 group space-y-4 col-span-1 rounded-lg'>
             <div className='w-2/5 overflow-hidden rounded-lg h-full'>
-              <img 
-              src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*SuAhTBxHW3bI8f3zRCJn8A.png" 
-              alt=""
-              className='group-hover:scale-105 transition duration-300 w-full h-full object-cover'
+              <img
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*SuAhTBxHW3bI8f3zRCJn8A.png"
+                alt=""
+                className='group-hover:scale-105 transition duration-300 w-full h-full object-cover'
               />
             </div>
             <div className='w-3/5 space-y-3'>
@@ -156,10 +156,10 @@ const AboutUs = () => {
           </a>
           <a rel='noreferrer' target='_blank' href={'https://medium.com/@benitoderosario/introducing-tba-tcrs-80d8a7d6950a'} className='border shadow-md flex items-center p-4 gap-x-2 group space-y-4 col-span-1 rounded-lg'>
             <div className='w-2/5 overflow-hidden rounded-lg h-full'>
-              <img 
-                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*GVIHE4phr30i_TSM0ol-ug.png" 
-              alt=""
-              className='group-hover:scale-105 transition duration-300 w-full object-cover object-left h-full'
+              <img
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*GVIHE4phr30i_TSM0ol-ug.png"
+                alt=""
+                className='group-hover:scale-105 transition duration-300 w-full object-cover object-left h-full'
               />
             </div>
             <div className='w-3/5 space-y-3'>
@@ -169,10 +169,10 @@ const AboutUs = () => {
           </a>
           <a rel='noreferrer' target='_blank' href={'https://benitoderosario.medium.com/tarjeta-cripto-dinero-b833c98af1f9'} className='border shadow-md flex items-center p-4 gap-x-2 group space-y-4 col-span-1 rounded-lg'>
             <div className='w-2/5 overflow-hidden rounded-lg h-full'>
-              <img 
-                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*hODvezVHuLI6RSveq-MJZQ.png" 
-              alt=""
-              className='group-hover:scale-105 transition duration-300 w-full object-cover object-left h-full'
+              <img
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*hODvezVHuLI6RSveq-MJZQ.png"
+                alt=""
+                className='group-hover:scale-105 transition duration-300 w-full object-cover object-left h-full'
               />
             </div>
             <div className='w-3/5 space-y-3'>

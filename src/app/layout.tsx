@@ -4,7 +4,7 @@ import { AppNavBar } from '@/components/navigation';
 import Link from 'next/link';
 import { Montserrat } from 'next/font/google';
 import localFont from 'next/font/local';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 
 const mont = Montserrat({
   subsets: ['latin'],
