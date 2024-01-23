@@ -7,7 +7,7 @@ const WillieTaylor = () => {
         <div className='md:mt-24 mt-8'>
             <div className='relative'>
                 <div className='w-full relative h-[13rem]'>
-                    <Image fill src="/images/willie.jpg" alt="" className='object-cover' />
+                    <Image fill src="/images/benito_banner.jpg" alt="" className='object-cover' />
                 </div>
                 <div className='absolute -bottom-12 left-12'>
                     <img src='https://i.scdn.co/image/ab67706c0000da8479ede4425cadf7e10bfe1308' className='w-32 h-32 rounded-full orangeToPink'></img>
@@ -21,7 +21,7 @@ const WillieTaylor = () => {
                         className='text-xl font-bold hover:text-cyan-500 text-cyan-600 duration-200'>
                         @DJBenito304
                     </a>
-                    <p className='text-sm lg:max-w-96 text-justify leading-tight pt-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur itaque voluptatibus exercitationem consequatur molestiae qui numquam recusandae molestias iste dignissimos?</p>
+                    <p className='text-sm lg:max-w-96 text-justify leading-tight pt-5'>DJBenito304 Americano #based Colombiano Musica es mi vida y la playa y las chicas 🍑🤑🎧 ingenerio a Tarjeta Trap <span><a target='_blank' rel='noreferrer' href="https://t.me/+XWSPAqYaFNg0Mzcx" className='text-cyan-600 hover:text-cyan-500'>https://t.me/+XWSPAqYaFNg0Mzcx</a></span></p>
 
                 </div>
                 <div className='bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52'>
