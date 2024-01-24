@@ -14,7 +14,7 @@ export default function Home({
     <>
       <HomeContainer>
         <p className='font-extralight dark:text-white'>
-          360NFT is currently invite-only
+          Trapcard is currently invite-only
           <br />
           Here&apos;s how to{' '}
           <span>
