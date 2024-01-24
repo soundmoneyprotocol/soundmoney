@@ -83,7 +83,7 @@ function MainLayout({ children }: { children: React.ReactNode }) {
       </header>
       <main>{children}</main>
       <footer className='md:px-40 px-5 flex justify-between text-sm py-5 md:fixed bottom-0 w-full bg-white'>
-        <p>© {new Date().getFullYear()} 360NFT</p>
+        <p>© {new Date().getFullYear()} Trapcard</p>
         <div className='flex gap-x-4'>
         <Link href={'/docs'} className='text-blue-600 hover:text-blue-500'>
           Docs
