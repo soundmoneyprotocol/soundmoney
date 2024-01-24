@@ -13,6 +13,7 @@ const AboutUs = () => {
             the <span className='bg-clip-text text-white/40'>Future</span> of
             <br />
             Music <span className='bg-clip-text text-white/40'>Streaming</span>
+            <br />Payments
           </h1>
           <p className='text-white font-gilroy text-xl'>Embrace the Power of Streaming Payments with Sound Money!</p>
         </div>
