@@ -82,7 +82,7 @@ const AboutUs = () => {
           Introducing the early adopters & DJ playlists
         </p>
         <div className='flex justify-center flex-wrap gap-8 my-12'>
-          <div className='flex flex-col items-center justify-center'>
+          <Link href='/profile/djws' className='flex flex-col items-center justify-center'>
             <img
               src="https://www.billboard.com/wp-content/uploads/media/Paul-Blair-DJ-White-Shadow-2016-press-billboard-650.jpg?w=650&h=430&crop=1"
               alt="artist"
@@ -92,7 +92,7 @@ const AboutUs = () => {
               <h3 className='text-[#9c42f5] text-sm font-semibold'>DJWS</h3>
               <h4 className='text-xs font-extralight'>USA</h4>
             </div>
-          </div>
+          </Link>
           <div className='flex flex-col items-center justify-center'>
             <img
               src="https://www.ticketcorner.ch/obj/media/CH-eventim/galery/kuenstler/d/dj-idem_01.jpg"
@@ -104,7 +104,7 @@ const AboutUs = () => {
               <h4 className='text-xs font-extralight'>Switzerland</h4>
             </div>
           </div>
-          <div className='flex flex-col items-center justify-center'>
+          <Link href='/profile/willietaylor' className='flex flex-col items-center justify-center'>
             <img
               src="https://media.licdn.com/dms/image/C4D03AQG5I1C-FzYjfw/profile-displayphoto-shrink_400_400/0/1614882349776?e=1710979200&v=beta&t=qp6m-312zi_zGAeE8aQmPR79TMCm4Xt4djFGgvsayH4"
               alt="artist"
@@ -114,7 +114,7 @@ const AboutUs = () => {
               <h3 className='text-[#9c42f5] text-sm font-semibold'>Willie Taylor</h3>
               <h4 className='text-xs font-extralight'>USA</h4>
             </div>
-          </div>
+          </Link>
           <div className='flex flex-col items-center justify-center'>
             <img
               src="https://www.thehypemagazine.com/wp-content/uploads/2023/02/Murph-2.jpg"
