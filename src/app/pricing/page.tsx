@@ -20,11 +20,10 @@ export default function Page() {
           Our pricing
         </h1>
         <small className='font-[500]'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-          doloremque, ducimus perferendis officiis omnis aliquid?
+          We offer transparent pricing plans designed to suit every music lover. With seamless crypto payments, fair compensation for artists, and options for all, youre just a click away from joining the future of music streaming. Choose your plan and dive into the world of Web2.5 today!
         </small>
         <ul className='flex items-start justify-between gap-8 mt-10 md:flex-row flex-col'>
-          <li className='w-full lg:w-[32%] px-10 pt-16 pb-8 bg-white rounded-lg self-stretch hover:scale-105 hover:shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)] transition-all duration-150 ease-in'>
+          <li className='w-full lg:w-[32%] border shadow  px-4 pt-16 pb-8 bg-white rounded-lg self-stretch hover:scale-105 hover:shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)] transition-all duration-150 ease-in'>
             <h2 className='text-center font-semibold text-lg tracking-wider mb-3 drop-shadow-[3px_3px_5px_rgba(91,91,91,0.58)]'>
               TrapRadio station rotation package
             </h2>
@@ -40,22 +39,12 @@ export default function Page() {
             <ol className='list-disc text-[#ff2865] w-[80%] mx-auto'>
               <li>
                 <span className='text-black text-xs font-semibold'>
-                  Lorem, ipsum dolor.
-                </span>
-              </li>
-              <li>
-                <span className='text-black text-xs font-semibold'>
-                  Lorem ipsum dolor sit.
-                </span>
-              </li>
-              <li>
-                <span className='text-black text-xs font-semibold'>
-                  Lorem, ipsum.
+                  0.1/TRAP = 1099 plays
                 </span>
               </li>
             </ol>
           </li>
-          <li className='w-full lg:w-[32%] px-10 pt-16 pb-8 bg-white rounded-lg self-stretch hover:scale-105 hover:shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)] transition-all duration-150 ease-in'>
+          <li className='w-full lg:w-[32%] border shadow px-4 pt-16 pb-8 bg-white rounded-lg self-stretch hover:scale-105 hover:shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)] transition-all duration-150 ease-in'>
             <h2 className='text-center font-semibold text-lg tracking-wider mb-3 drop-shadow-[3px_3px_5px_rgba(91,91,91,0.58)]'>
               Super streamer playlist package
             </h2>
@@ -71,22 +60,17 @@ export default function Page() {
             <ol className='list-disc text-[#ff2865] w-[80%] mx-auto'>
               <li>
                 <span className='text-black text-xs font-semibold'>
-                  Lorem, ipsum dolor.
+                  500 Streams / 1 TRAP
                 </span>
               </li>
               <li>
                 <span className='text-black text-xs font-semibold'>
-                  Lorem ipsum dolor sit.
-                </span>
-              </li>
-              <li>
-                <span className='text-black text-xs font-semibold'>
-                  Lorem, ipsum.
+                  Priority Support
                 </span>
               </li>
             </ol>
           </li>
-          <li className='w-full lg:w-[32%] px-10 pt-16 pb-8 bg-white rounded-lg self-stretch hover:scale-105 hover:shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)] transition-all duration-150 ease-in relative group'>
+          <li className='w-full lg:w-[32%] border shadow px-4 pt-16 pb-8 bg-white rounded-lg self-stretch hover:scale-105 hover:shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)] transition-all duration-150 ease-in relative group'>
             <h2 className='text-center font-semibold text-lg tracking-wider mb-3 drop-shadow-[3px_3px_5px_rgba(91,91,91,0.58)]'>
               Run your bag up playlist package
             </h2>
@@ -102,22 +86,22 @@ export default function Page() {
             <ol className='list-disc text-[#ff2865] w-[80%] mx-auto'>
               <li>
                 <span className='text-black text-xs font-semibold'>
-                  Lorem ipsum dolor sit.
+                  1000 Streams / 2 TRAP
                 </span>
               </li>
               <li>
                 <span className='text-black text-xs font-semibold'>
-                  Lorem, ipsum dolor.
+                  Advanced Analytics and Audience Insights
                 </span>
               </li>
               <li>
                 <span className='text-black text-xs font-semibold'>
-                  Lorem, ipsum dolor.
+                  Priority Support
                 </span>
               </li>
             </ol>
           </li>
-          <li className='w-full lg:w-[32%] px-10 pt-16 pb-8 bg-white rounded-lg self-stretch hover:scale-105 hover:shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)] transition-all duration-150 ease-in relative group'>
+          <li className='w-full orangeToPink lg:w-[32%] border px-4 pt-16 pb-8 bg-white rounded-lg self-stretch scale-105 shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)] transition-all duration-150 ease-in relative group'>
             <h2 className='text-center font-semibold text-lg tracking-wider mb-3 drop-shadow-[3px_3px_5px_rgba(91,91,91,0.58)]'>
               Ultimate streaming playlist capsule
             </h2>
@@ -130,20 +114,25 @@ export default function Page() {
                 Pay
               </button>
             </Link>
-            <ol className='list-disc text-[#ff2865] w-[80%] mx-auto'>
+            <ol className='list-disc text-black w-[80%] mx-auto'>
               <li>
-                <span className='text-black text-xs font-semibold'>
-                  Lorem ipsum dolor sit.
+                <span className='text-white text-xs font-semibold'>
+                  5 TRAP (Tip/Reward/Artist/Play)
                 </span>
               </li>
               <li>
-                <span className='text-black text-xs font-semibold'>
-                  Lorem, ipsum.
+                <span className='text-white text-xs font-semibold'>
+                  Detailed Demographics and Engagement Metrics
                 </span>
               </li>
               <li>
-                <span className='text-black text-xs font-semibold'>
-                  Lorem, ipsum.
+                <span className='text-white text-xs font-semibold'>
+                  30% Discount on Promotion Packages
+                </span>
+              </li>
+              <li>
+                <span className='text-white text-xs font-semibold'>
+                  Dedicated Account Manager
                 </span>
               </li>
             </ol>
