@@ -93,7 +93,7 @@ const AboutUs = () => {
               <h4 className='text-xs font-extralight'>USA</h4>
             </div>
           </Link>
-          <div className='flex flex-col items-center justify-center'>
+          <Link href={'/profile/djidem'} className='flex flex-col items-center justify-center'>
             <img
               src="https://www.ticketcorner.ch/obj/media/CH-eventim/galery/kuenstler/d/dj-idem_01.jpg"
               alt="artist"
@@ -103,7 +103,7 @@ const AboutUs = () => {
               <h3 className='text-[#9c42f5] text-sm font-semibold'>DJ Idem</h3>
               <h4 className='text-xs font-extralight'>Switzerland</h4>
             </div>
-          </div>
+          </Link>
           <Link href='/profile/willietaylor' className='flex flex-col items-center justify-center'>
             <img
               src="https://media.licdn.com/dms/image/C4D03AQG5I1C-FzYjfw/profile-displayphoto-shrink_400_400/0/1614882349776?e=1710979200&v=beta&t=qp6m-312zi_zGAeE8aQmPR79TMCm4Xt4djFGgvsayH4"
@@ -137,6 +137,17 @@ const AboutUs = () => {
               <h4 className='text-xs font-extralight'>USA</h4>
             </div>
           </div>
+          <Link href='/profile/interface' className='flex flex-col items-center justify-center'>
+            <img
+              src="https://i.scdn.co/image/ab67616100005174d75610420829741538b36897"
+              alt="artist"
+              className='w-44 h-44 rounded-full object-cover object-left'
+            />
+            <div className='flex flex-col justify-center items-center pt-3'>
+              <h3 className='text-[#9c42f5] text-sm font-semibold'>Interface</h3>
+              <h4 className='text-xs font-extralight'>USA</h4>
+            </div>
+          </Link>
         </div>
       </section>
       <section className='py-20 bg-gray-50'>
