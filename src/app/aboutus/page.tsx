@@ -148,6 +148,39 @@ const AboutUs = () => {
               <h4 className='text-xs font-extralight'>USA</h4>
             </div>
           </Link>
+          <Link href='/profile/djgonecrazy' className='flex flex-col items-center justify-center'>
+            <div
+              // src="https://i.scdn.co/image/ab67616100005174d75610420829741538b36897"
+              // alt="artist"
+              className='w-44 h-44 rounded-full bg-black'
+            ></div>
+            <div className='flex flex-col justify-center items-center pt-3'>
+              <h3 className='text-[#9c42f5] text-sm font-semibold'>DJGONECRAZY</h3>
+              <h4 className='text-xs font-extralight'>USA</h4>
+            </div>
+          </Link>
+          <Link href='/profile/gallocontennis' className='flex flex-col items-center justify-center'>
+            <img
+              src="https://i.scdn.co/image/ab6761610000517460c5a0f1b00bbb6dc2ed9391"
+              alt="artist"
+              className='w-44 h-44 rounded-full object-cover object-left'
+            />
+            <div className='flex flex-col justify-center items-center pt-3'>
+              <h3 className='text-[#9c42f5] text-sm font-semibold'>Gallo Con Tennis</h3>
+              <h4 className='text-xs font-extralight'>USA</h4>
+            </div>
+          </Link>
+          <Link href='/profile/ramen-gang' className='flex flex-col items-center justify-center'>
+            <img
+              src="https://i.scdn.co/image/ab67706c0000da84bd22812f11174682f7add769"
+              alt="artist"
+              className='w-44 h-44 rounded-full object-cover object-left'
+            />
+            <div className='flex flex-col justify-center items-center pt-3'>
+              <h3 className='text-[#9c42f5] text-sm font-semibold'>🍜 Ramen Gang</h3>
+              <h4 className='text-xs font-extralight'>Mexico</h4>
+            </div>
+          </Link>
         </div>
       </section>
       <section className='py-20 bg-gray-50'>
