@@ -137,6 +137,17 @@ const AboutUs = () => {
               <h4 className='text-xs font-extralight'>USA</h4>
             </div>
           </div>
+          <Link href='/profile/djbenito304' className='flex flex-col items-center justify-center'>
+            <img
+              src="https://i.scdn.co/image/ab67706c0000da8479ede4425cadf7e10bfe1308"
+              alt="artist"
+              className='w-44 h-44 rounded-full object-cover object-left'
+            />
+            <div className='flex flex-col justify-center items-center pt-3'>
+              <h3 className='text-[#9c42f5] text-sm font-semibold'>DJBenito304</h3>
+              <h4 className='text-xs font-extralight'>USA</h4>
+            </div>
+          </Link>
           <Link href='/profile/interface' className='flex flex-col items-center justify-center'>
             <img
               src="https://i.scdn.co/image/ab67616100005174d75610420829741538b36897"
