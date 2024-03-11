@@ -18,7 +18,7 @@ const AboutUs = () => {
           <p className='text-white font-gilroy text-xl'>Embrace the Power of Streaming Payments with Sound Money!</p>
         </div>
       </section>
-      <section className='py-20 md:px-12 px-6'>
+      {/* <section className='py-20 md:px-12 px-6'>
         <h2 className='text-center md:text-6xl text-3xl font-gilroy font-bold text-cyanSky pb-12'>Unleashing the Potential</h2>
         <p className='md:px-20 px-6 text-xl text-justify font-semibold text-black/85'>
           In the rapidly evolving landscape of digital entertainment, the fusion of cutting-edge technology and innovative financial solutions has given birth to a new era - Web2.5 music streaming. Elevate your music experience by diving into the world of crypto payments, where seamless transactions meet the rhythm of your favorite tunes.
@@ -248,7 +248,7 @@ const AboutUs = () => {
         <div className='py-8 pb-20'>
           <Link href={'/account/signup'} className=' justify-center py-2.5 items-center w-44 gap-x-4 orangeToPink group flex'>Get Started <p className='group-hover:translate-x-2 text-lg transition-all duration-300 ease-in-out'>&rarr;</p></Link>
         </div>
-      </section>
+      </section> */}
     </main>
   )
 }
