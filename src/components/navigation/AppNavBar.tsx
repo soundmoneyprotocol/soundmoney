@@ -31,7 +31,7 @@ export const AppNavBar = async () => {
         <Link href={'/docs'} className='text-blue-600 hover:text-blue-500'>
           Docs
         </Link>
-        <Link href={'/profile/djBenito304'} className='text-blue-600 hover:text-blue-500'>
+        <Link href={'/profile/djbenito304'} className='text-blue-600 hover:text-blue-500'>
           Demo
         </Link>
 
