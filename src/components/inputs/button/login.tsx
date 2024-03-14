@@ -22,7 +22,7 @@ export const NavBarLoginBtn = () => {
   const router = useRouter();
   return (
     <button
-      className='rounded-xl py-2.5 font-semibold font-mont greenToPurple px-3 hover:scale-[0.98] duration-200 transition'
+      className='rounded-xl py-2 md:py-2.5 font-semibold font-mont greenToPurple px-3 hover:scale-[0.98] duration-200 transition'
       onClick={() => router.push('/account/login')}
     >
       Login

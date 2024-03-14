@@ -4,6 +4,7 @@
 
 .lightHeroBg {
   background-image: url('/images/home/base_l.jpg');
+  min-height: 100vh;
 }
 
 .darkHeroBg {

@@ -26,10 +26,13 @@ export const AppNavBar = async () => {
         </Link>
       </div>
 
-      <div className='flex md:gap-x-8 gap-x-3 items-center'>
+      <div className='flex md:gap-x-8 gap-x-2 items-center'>
         {/* <ThemeButton /> */}
         <Link href={'/docs'} className='text-blue-600 hover:text-blue-500'>
           Docs
+        </Link>
+        <Link href={'/about-us'} className='text-blue-600 hover:text-blue-500'>
+          About
         </Link>
         <Link href={'/profile/djbenito304'} className='text-blue-600 hover:text-blue-500'>
           Demo
