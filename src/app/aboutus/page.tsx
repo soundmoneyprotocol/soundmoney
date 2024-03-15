@@ -5,7 +5,7 @@ import React from 'react'
 const AboutUs = () => {
   return (
     <main className=''>
-      <section className='relative bgAnimation h-screen md:pt-32 pt-64'>
+      <section className='relative bgAnimation h-[85vh] md:h-screen md:pt-32 pt-40'>
         <div className='md:px-12 px-6 space-y-5'>
           <h1 className='md:text-6xl text-4xl font-extrabold font-druk'>
             <span className='bg-clip-text text-white/40'>Welcome </span>to
