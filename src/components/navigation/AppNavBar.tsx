@@ -28,7 +28,7 @@ export const AppNavBar = async () => {
 
       <div className='flex md:gap-x-8 gap-x-2 items-center'>
         {/* <ThemeButton /> */}
-        <Link href={'/docs'} className='text-blue-600 hover:text-blue-500 text-sm md:text-base'>
+        {/* <Link href={'/docs'} className='text-blue-600 hover:text-blue-500 text-sm md:text-base'>
           Docs
         </Link>
         <Link href={'/aboutus'} className='text-blue-600 hover:text-blue-500 text-sm md:text-base'>
@@ -36,13 +36,13 @@ export const AppNavBar = async () => {
         </Link>
         <Link href={'/profile/djbenito304'} className='text-blue-600 hover:text-blue-500 text-sm md:text-base'>
           Demo
-        </Link>
+        </Link> */}
 
-        {session?.user ? <Link href={'/account/referral'} className='rounded-xl bg-white py-2.5 px-3 font-semibold font-mont'>
+        {/* {session?.user ? <Link href={'/account/referral'} className='rounded-xl bg-white py-2.5 px-3 font-semibold font-mont'>
           Referral Code
-        </Link> : ''}
+        </Link> : ''} */}
 
-        {session?.user ? <NavBarLogoutBtn /> : <NavBarLoginBtn />}
+        {/* {session?.user ? <NavBarLogoutBtn /> : <NavBarLoginBtn />} */}
       </div>
     </nav>
   );

@@ -85,13 +85,16 @@ function MainLayout({ children }: { children: React.ReactNode }) {
       <footer className='md:px-40 px-5 flex justify-between text-sm py-5 md:fixed bottom-0 w-full bg-white'>
         <p>© {new Date().getFullYear()} Trapcard</p>
         <div className='flex gap-x-4'>
-        <Link href={'/docs'} className='text-blue-600 hover:text-blue-500'>
-          Docs
-        </Link>
-        <Link href={'/aboutus'} className='text-blue-600 hover:text-blue-500'>
-          About-us
-        </Link>
-        {/* <Link href={'/privacy'} className='text-blue-500 hover:text-blue-600'>
+          <Link href={'/docs'} className='text-blue-600 hover:text-blue-500'>
+            Docs
+          </Link>
+          {/* <Link href={'/aboutus'} className='text-blue-600 hover:text-blue-500'>
+            About-us
+          </Link> */}
+          <Link href={'/profile/djbenito304'} className='text-blue-600 hover:text-blue-500 text-sm md:text-base'>
+            Demo
+          </Link>
+          {/* <Link href={'/privacy'} className='text-blue-500 hover:text-blue-600'>
           Privacy Policy
         </Link> */}
         </div>

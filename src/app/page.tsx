@@ -12,7 +12,7 @@ export default function Home({
 }) {
   return (
     <div className=''>
-      <HomeContainer>
+      {/* <HomeContainer>
         <div className='space-y-8 md:space-y-4'>
           <p className='font-extralight dark:text-white'>
             Trapcard is currently invite-only
@@ -35,10 +35,8 @@ export default function Home({
             please log in
           </h3>
           <div>
-            {/* <Link>Register</Link> */}
           </div>
           <div className='rounded-3xl shadow-lg greenToPurple md:p-6 p-4 max-w-xl'>
-            {/* <h3 className='text-4xl font-black mb-5'>Get early access</h3> */}
             <div className='mb-4'>
               <TextAnimation />
             </div>
@@ -48,39 +46,30 @@ export default function Home({
               </p>
             )}
             <form>
-              {/* <div className='space-y-2 text-black'>
-              <input
-                type='email'
-                name='email'
-                className='bg-white py-2.5 rounded-lg px-4 w-full mb-5'
-                placeholder='you@example.com'
-                disabled
-              // required
-              />
-              <input
-                type='password'
-                className='bg-white py-2.5 rounded-lg px-4 w-full mb-5'
-                name='password'
-                placeholder='••••••••'
-                disabled
-              // required
-              />
-            </div> */}
               <div className='w-full mt-2'>
-                {/* <RegisterButton /> */}
                 <Link href={'/account/signup'} className='w-full text-sm font-bold'>
                   <button className='w-full bg-black py-2.5 rounded-lg'>
                     Register
                   </button>
                 </Link>
-                {/* <Link href={'/account/login'} type='button' className='text-gray-300 text-sm mt-4'>
-                Signed Up before? Check your status
-              </Link> */}
               </div>
             </form>
           </div>
         </div>
-      </HomeContainer>
+      </HomeContainer> */}
+      <section className='relative bgAnimation h-[85vh] md:h-screen md:pt-20 pt-40 flex justify-center items-center'>
+        <div className='md:px-12 px-6 space-y-5'>
+          <h1 className='md:text-6xl text-4xl font-extrabold font-druk'>
+            <span className='bg-clip-text text-white/40'>Welcome </span>to
+            <br />
+            the <span className='bg-clip-text text-white/40'>Future</span> of
+            <br />
+            Music <span className='bg-clip-text text-white/40'>Streaming</span>
+            <br />Payments
+          </h1>
+          <p className='text-white font-gilroy text-xl'>Embrace the Power of Streaming Payments with Sound Money!</p>
+        </div>
+      </section>
     </div>
   );
 }
