@@ -140,6 +140,17 @@ const Docs = () => {
               <h4 className='text-xs font-extralight'>USA</h4>
             </div>
           </Link>
+          <Link href={'/profile/digiwaxx'} className='flex flex-col items-center justify-center'>
+            <img
+              src="https://i.scdn.co/image/ab67656300005f1fcfdafd408c7d2472c46e8ec4"
+              alt="artist"
+              className='w-44 h-44 rounded-full object-cover'
+            />
+            <div className='flex flex-col justify-center items-center pt-3'>
+              <h3 className='text-[#9c42f5] text-sm font-semibold'>Digiwaxx</h3>
+              <h4 className='text-xs font-extralight'>USA</h4>
+            </div>
+          </Link>
           <Link href={'/profile/djidem'} className='flex flex-col items-center justify-center'>
             <img
               src="https://www.ticketcorner.ch/obj/media/CH-eventim/galery/kuenstler/d/dj-idem_01.jpg"
