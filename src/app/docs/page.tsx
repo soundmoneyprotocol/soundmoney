@@ -11,13 +11,13 @@ const Docs = () => {
         </h2>
         <div className="mt-8 grid md:grid-cols-3 gap-6 pb-8">
           <a
-            href="https://trapcard.gitbook.io/protocol/"
+            href="https://soundmoney.gitbook.io/protocol/"
             target="_blank"
             rel="noreferrer"
             className="px-5 py-12 items-center col-span-1 group border rounded-xl shadow-lg max-w-96 flex justify-between md:hover:scale-105  duration-200 hover:shadow-2xl"
           >
             <h2 className="font-bold text-2xl group-hover:border-b-2 border-black duration-200">
-              TrapCard Protocol v.2.5
+              SoundMoney Protocol v.2.5
             </h2>
             <img
               src="https://s2.svgbox.net/hero-outline.svg?ic=external-link&color=00ffaa"
@@ -26,7 +26,7 @@ const Docs = () => {
             />
           </a>
           <a
-            href="https://trapcard.gitbook.io/lite-paper/"
+            href="https://soundmoney.gitbook.io/lite-paper/"
             target="_blank"
             rel="noreferrer"
             className="px-5 py-12 items-center col-span-1 group border rounded-xl shadow-lg max-w-96 flex justify-between md:hover:scale-105  duration-200 hover:shadow-2xl"
@@ -41,7 +41,7 @@ const Docs = () => {
             />
           </a>
           <a
-            href="https://trapcard.gitbook.io/tokenomics/"
+            href="https://soundmoney.gitbook.io/tokenomics/"
             target="_blank"
             rel="noreferrer"
             className="px-5 py-12 items-center col-span-1 group border rounded-xl shadow-lg max-w-96 flex justify-between md:hover:scale-105  duration-200 hover:shadow-2xl"
@@ -56,7 +56,7 @@ const Docs = () => {
             />
           </a>
           <a
-            href="https://trapcard.gitbook.io/roadmap/"
+            href="https://soundmoney.gitbook.io/roadmap/"
             target="_blank"
             rel="noreferrer"
             className="px-5 py-12 items-center col-span-1 group border rounded-xl shadow-lg max-w-96 flex justify-between md:hover:scale-105  duration-200 hover:shadow-2xl"
@@ -71,7 +71,7 @@ const Docs = () => {
             />
           </a>
           <a
-            href="https://trapcard.gitbook.io/overview/"
+            href="https://soundmoney.gitbook.io/overview/"
             target="_blank"
             rel="noreferrer"
             className="px-5 py-12 items-center col-span-1 group border rounded-xl shadow-lg max-w-96 flex justify-between md:hover:scale-105  duration-200 hover:shadow-2xl"
@@ -86,7 +86,7 @@ const Docs = () => {
             />
           </a>
           <a
-            href="https://trapcard.gitbook.io/sound-money-api/"
+            href="https://soundmoney.gitbook.io/sound-money-api/"
             target="_blank"
             rel="noreferrer"
             className="px-5 py-12 items-center col-span-1 group border rounded-xl shadow-lg max-w-96 flex justify-between md:hover:scale-105  duration-200 hover:shadow-2xl"
@@ -107,11 +107,11 @@ const Docs = () => {
           Unleashing the Potential
         </h2>
         <p className="md:px-20 px-6 text-xl text-justify font-semibold text-black/85">
-          In the rapidly evolving landscape of digital entertainment, the fusion
-          of cutting-edge technology and innovative financial solutions has
-          given birth to a new era - Web2.5 music streaming. Elevate your music
-          experience by diving into the world of crypto payments, where seamless
-          transactions meet the rhythm of your favorite tunes.
+          This is how Social Tokens work: Sound Money is a new direct-to-fan
+          channel built on Bitcoin that allows creatives to retain the majority
+          of his profits while allowing his fans to invest in them. Our Business
+          Model offers New exclusive access and experiences - that can be
+          accessed via social tokens.
         </p>
         <div className="flex md:flex-row flex-col gap-6 py-20">
           <div className="border shadow-lg rounded-md p-8 space-y-4">
@@ -123,12 +123,12 @@ const Docs = () => {
                 Embrace Decentralisation
               </h3>
               <p className="text-sm">
-                Say goodbye to traditional payment gateways and welcome
-                decentralization with open arms. Web2.5 music streaming powered
-                by crypto payments ensures that you have full control over your
-                transactions. No intermediaries, no delays - just direct,
-                peer-to-peer transactions that empower both artists and
-                listeners.
+                SoundMoney is a new direct-to-fan channel built on Bitcoin that
+                allows Creatives to retain the majority of their profits while
+                allowing their audiences to invest in them. Our Business Model
+                offers New exclusive access and experiences - that can be
+                accessed via social tokens. It does all of this while helping
+                users earn in Bitcoin!
               </p>
             </div>
           </div>
@@ -154,14 +154,14 @@ const Docs = () => {
       </section>
       <section className="py-20 md:sectionClip bg-gray-50 md:px-12 px-6">
         <h2 className="textGradient md:text-7xl text-4xl font-gilroy text-center font-bold leading-relaxed">
-          Empowering Artists
+          Empowering Creatives
         </h2>
         <p className="md:px-20 pt-4 px-6 text-xl font-semibold text-black/85">
           In an era dominated by digital innovation, the need to empower
-          musicians has never been more critical. As the music industry evolves,
-          Web2.5 music streaming takes a stand to ensure that artists not only
-          survive but thrive in this dynamic landscape. Let&apos;s delve into
-          how this revolution is reshaping the way musicians are compensated and
+          creatives has never been more critical. As the our industry evolves,
+          Web3 Social takes a stand to ensure that creators not only survive but
+          thrive in this dynamic landscape. Let&apos;s delve into how this
+          revolution is reshaping the way creatives are compensated and
           recognized.
         </p>
         <div className="pt-16 space-y-8">
@@ -210,7 +210,7 @@ const Docs = () => {
           </div>
           <div className="pb-8">
             <h3 className="text-3xl font-bold text-[#4579f5] mb-3">
-              Encouraging users to support their favorite musicians
+              Encouraging users to support their favorite creatives
             </h3>
             <p className="text-justify">
               Empower the voices that resonate with you. Choose to actively
@@ -229,10 +229,10 @@ const Docs = () => {
       </section>
       <section className="py-20 md:px-12 px-6">
         <h2 className="text-center text-6xl font-gilroy font-extrabold text-cyanSky pb-12">
-          Our Artists
+          Our Creatives
         </h2>
         <p className="md:px-20 px-6 text-xl font-semibold text-[#4579f5] text-center">
-          Introducing the early adopters & DJ playlists
+          Introducing the early adopters & creatives
         </p>
         <div className="flex justify-center flex-wrap gap-8 my-12">
           <Link
@@ -421,10 +421,10 @@ const Docs = () => {
             </div>
             <div className="w-3/5 space-y-3">
               <h3 className="forn-bold font-bold text-lg leading-tight">
-                LitePaper: Protocolo TrapCard
+                LitePaper: Protocolo SoundMoney
               </h3>
               <p className="text-xs">
-                TrapCard features an innovative mood-based sentiment analysis
+                SoundMoney features an innovative mood-based sentiment analysis
                 algorithmic playlist and...
               </p>
             </div>
@@ -450,7 +450,7 @@ const Docs = () => {
               </h3>
               <p className="text-xs">
                 In the ever-evolving landscape of blockchain technology and
-                decentralized applications, the TrapCard...
+                decentralized applications, the SoundMoney...
               </p>
             </div>
           </a>
