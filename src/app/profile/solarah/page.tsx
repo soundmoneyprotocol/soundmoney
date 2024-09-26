@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-const Djws = () => {
+const Solarah = () => {
   return (
     <div className="md:mt-24 mt-8">
       <div className="relative">
@@ -30,11 +30,11 @@ const Djws = () => {
             @SolarahSpeaks
           </a>
           <p className="text-sm lg:max-w-96 text-justify leading-tight pt-5">
-            Solarah Speaks London UK Based is a prolific cosmic visionary who
-            has captivated her audience with 'Downloads' intuited via
-            'Tarot-Astrology' Reports that Detail a persons Astrological
-            placements and how those placements interact with cosmological
-            energies via Tarot Card Readings.*
+            London UK Based Solarah Speaks is a prolific cosmic visionary who
+            has captivated her audience with Downloads intuited via Tarot
+            Astrology Reports that Detail a persons Astrological placements and
+            how those placements interact with cosmological energies via Tarot
+            Card Readings.
           </p>
         </div>
         <div className="bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52">
@@ -57,4 +57,4 @@ const Djws = () => {
   );
 };
 
-export default Djws;
+export default Solarah;
