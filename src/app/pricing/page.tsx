@@ -22,7 +22,7 @@ export default function Page() {
         <small className="font-[500]">
           We offer transparent pricing plans designed to suit every music lover.
           With seamless crypto payments, fair compensation for artists, and
-          options for all, youre just a click away from joining the future of
+          options for all, you are just a click away from joining the future of
           music streaming. Choose your plan and dive into the world of Web2.5
           today!
         </small>

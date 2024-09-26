@@ -408,7 +408,7 @@ const Docs = () => {
             rel="noreferrer"
             target="_blank"
             href={
-              'https://benitoderosario.medium.com/litepaper-protocolo-trapcard-40164ded17c1'
+              'https://benitoderosario.medium.com/litepaper-soundmoney-protocol-e6371d96079a'
             }
             className="border shadow-md flex items-center p-4 gap-x-2 group space-y-4 col-span-1 rounded-lg"
           >
@@ -421,7 +421,7 @@ const Docs = () => {
             </div>
             <div className="w-3/5 space-y-3">
               <h3 className="forn-bold font-bold text-lg leading-tight">
-                LitePaper: Protocolo SoundMoney
+                LitePaper:SoundMoney Protocol
               </h3>
               <p className="text-xs">
                 SoundMoney features an innovative mood-based sentiment analysis
