@@ -120,7 +120,7 @@ const Docs = () => {
             </div>
             <div className="space-y-1">
               <h3 className="font-bold text-slate-600 text-lg">
-                Embrace Decentralisation
+                Embrace Decentralization
               </h3>
               <p className="text-sm">
                 SoundMoney is a new direct-to-fan channel built on Bitcoin that

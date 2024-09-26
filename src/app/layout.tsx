@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   description:
     'SoundMoney is a new direct-to-fan channel built on Bitcoin that allows Creatives to retain the majority of their profits while allowing their audience to invest in them.  - Our Business Model offers New music access and experiences - that can be accessed via artist tokens. -It does all of this while helping users earn in Bitcoin!',
   keywords:
-    'Crypto Beats, Blockchain Harmony, Decentralized Soundwaves, Crypto Grooves, FairPlay Music, Artist Empowerment Hub, Transparent Tunescapes, CryptoTunes Revolution, Peer-to-Peer Melodies, Web2.5 Sonic Experience, CryptoSounds Hub, Seamless Rhythms, EmpowerArt Beats, EmpowerArt Beats, Digital Audio Freedom, CryptoWave Jams, Harmony in Blockchain, EmpowerArt Beats, NxtLevel Music Stream Decentralized Vibes, FairNotes Streaming, Web2.5, Bitcoin, Web3, Trapchain',
+    'Crypto Beats, Blockchain Harmony, Decentralized Soundwaves, Crypto Grooves, FairPlay Music, Artist Empowerment Hub, Transparent Tunescapes, CryptoTunes Revolution, Peer-to-Peer Melodies, Web2.5 Sonic Experience, CryptoSounds Hub, Seamless Rhythms, EmpowerArt Beats, EmpowerArt Beats, Digital Audio Freedom, CryptoWave Jams, Harmony in Blockchain, EmpowerArt Beats, NxtLevel Music Stream Decentralized Vibes, FairNotes Streaming, Web2.5, Bitcoin, Web3, Trapchain inc.',
   twitter: {
     title: 'SoundMoney',
     card: 'summary_large_image',

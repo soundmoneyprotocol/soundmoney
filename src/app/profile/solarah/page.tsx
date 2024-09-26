@@ -6,11 +6,16 @@ const Djws = () => {
     <div className="md:mt-24 mt-8">
       <div className="relative">
         <div className="w-full relative h-[13rem]">
-          <Image fill src="/images/KRK.png" alt="" className="object-cover" />
+          <Image
+            fill
+            src="/images/Solarah_banner.png"
+            alt=""
+            className="object-cover"
+          />
         </div>
         <div className="absolute -bottom-12 left-12">
           <img
-            src="https://i.scdn.co/image/ab67616d00001e02150adf2c9dc0b4f3f874f790"
+            src="/images/solarah_speaks.png"
             className="w-32 h-32 rounded-full orangeToPink"
           ></img>
         </div>
@@ -25,10 +30,11 @@ const Djws = () => {
             @SolarahSpeaks
           </a>
           <p className="text-sm lg:max-w-96 text-justify leading-tight pt-5">
-            White Shadow is a producer, writer, DJ, designer, and entrepreneur
-            based in Los Angeles, CA. Grammy nominated producer/writer. 20
-            million singles sold. 5 million albums sold. 3 Billboard #1 albums
-            produced. 5 Billboard Top 40 singles.
+            Solarah Speaks London UK Based is a prolific cosmic visionary who
+            has captivated her audience with 'Downloads' intuited via
+            'Tarot-Astrology' Reports that Detail a persons Astrological
+            placements and how those placements interact with cosmological
+            energies via Tarot Card Readings.*
           </p>
         </div>
         <div className="bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52">

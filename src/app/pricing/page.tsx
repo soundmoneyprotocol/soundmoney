@@ -20,7 +20,7 @@ export default function Page() {
           Our pricing
         </h1>
         <small className='font-[500]'>
-          We offer transparent pricing plans designed to suit every music lover. With seamless crypto payments, fair compensation for artists, and options for all, youre just a click away from joining the future of music streaming. Choose your plan and dive into the world of Web2.5 today!
+          We offer transparent pricing plans designed to suit every music lover. With seamless crypto payments, fair compensation for artists, and options for all, you're just a click away from joining the future of music streaming. Choose your plan and dive into the world of Web2.5 today!
         </small>
         <ul className='flex items-start justify-between gap-8 mt-10 md:flex-row flex-col'>
           <li className='w-full lg:w-[32%] border shadow  px-4 pt-16 pb-8 bg-white rounded-lg self-stretch hover:scale-105 hover:shadow-[0px_14px_28px_-5px_rgba(0,0,0,0.1)] transition-all duration-150 ease-in'>
