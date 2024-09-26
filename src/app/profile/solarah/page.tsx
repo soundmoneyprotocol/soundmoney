@@ -34,7 +34,7 @@ const Solarah = () => {
             has captivated her audience with Downloads intuited via Tarot
             Astrology Reports that Detail a persons Astrological placements and
             how those placements interact with cosmological energies via Tarot
-            Card Readings.
+            Card Readings.✨🔮
           </p>
         </div>
         <div className="bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52">
