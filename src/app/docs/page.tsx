@@ -282,7 +282,7 @@ const Docs = () => {
             className="flex flex-col items-center justify-center"
           >
             <img
-              src="https://media.licdn.com/dms/image/C4D03AQG5I1C-FzYjfw/profile-displayphoto-shrink_400_400/0/1614882349776?e=1710979200&v=beta&t=qp6m-312zi_zGAeE8aQmPR79TMCm4Xt4djFGgvsayH4"
+              src="/images/willie_taylor.png"
               alt="artist"
               className="w-44 h-44 rounded-full object-cover object-left"
             />
