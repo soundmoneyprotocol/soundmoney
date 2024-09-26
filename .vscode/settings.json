@@ -8,5 +8,8 @@
   "deno.importMap": "../supabase/functions/import_map.json",
   "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
-  }
+  },
+  "cSpell.words": [
+    "solarah"
+  ]
 }

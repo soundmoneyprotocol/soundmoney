@@ -22,8 +22,8 @@ export default function Page() {
         <small className="font-[500]">
           We offer transparent pricing plans designed to suit every music lover.
           With seamless crypto payments, fair compensation for artists, and
-          options for all, you are just a click away from joining the future of
-          music streaming. Choose your plan and dive into the world of Web2.5
+          options for all, you&apos;re just a click away from joining the future
+          of music streaming. Choose your plan and dive into the world of Web2.5
           today!
         </small>
         <ul className="flex items-start justify-between gap-8 mt-10 md:flex-row flex-col">
