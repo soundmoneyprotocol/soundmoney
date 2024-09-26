@@ -12,21 +12,21 @@ export const AppNavBar = async () => {
 
   return (
     <nav
-      className='flex items-center justify-between p-4 shadow-md lg:px-8 md:fixed w-full bg-white'
-      aria-label='Global'
+      className="flex items-center justify-between p-4 shadow-md lg:px-8 md:fixed w-full bg-white"
+      aria-label="Global"
     >
-      <div className='flex lg:flex-1'>
-        <Link href='/' className='-m-1.5 p-1.5'>
-          <span className='sr-only'>Trapcard</span>
+      <div className="flex lg:flex-1">
+        <Link href="/" className="-m-1.5 p-1.5">
+          <span className="sr-only">SoundMoney</span>
           <img
-            className='md:h-8 md:w-auto w-32 backdrop-blur-[1px]'
-            src='/images/TrapCard.png'
-            alt='Trapcard_LOGO'
+            className="md:h-8 md:w-auto w-32 backdrop-blur-[1px]"
+            src="/images/soundmoney_black.png"
+            alt="soundmoney_black"
           />
         </Link>
       </div>
 
-      <div className='flex md:gap-x-8 gap-x-2 items-center'>
+      <div className="flex md:gap-x-8 gap-x-2 items-center">
         {/* <ThemeButton /> */}
         {/* <Link href={'/docs'} className='text-blue-600 hover:text-blue-500 text-sm md:text-base'>
           Docs

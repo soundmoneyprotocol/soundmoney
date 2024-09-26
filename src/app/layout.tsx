@@ -26,29 +26,29 @@ const gilroy = localFont({
 export const metadata: Metadata = {
   // viewport: { width: 'device-width', initialScale: 1 },
   title: {
-    default: 'Trapcard',
-    template: '%s | Trapcard',
+    default: 'SoundMoney',
+    template: '%s | SoundMoney',
   },
   description:
-    'Experience the future of music streaming with Web2.5 - where transparent blockchain transactions empower artists and reward listeners. Dive into a world of fair compensation, exclusive perks, and seamless crypto payments. Join the revolution and amplify your music journey today!',
+    'SoundMoney is a new direct-to-fan channel built on Bitcoin that allows Creatives to retain the majority of their profits while allowing their audience to invest in them.  - Our Business Model offers New music access and experiences - that can be accessed via artist tokens. -It does all of this while helping users earn in Bitcoin!',
   keywords:
-    'Crypto Beats, Blockchain Harmony, Decentralized Soundwaves, Crypto Grooves, FairPlay Music, Artist Empowerment Hub, Transparent Tunescapes, CryptoTunes Revolution, Peer-to-Peer Melodies, Web2.5 Sonic Experience, CryptoSounds Hub, Seamless Rhythms, EmpowerArt Beats, EmpowerArt Beats, Digital Audio Freedom, CryptoWave Jams, Harmony in Blockchain, EmpowerArt Beats, NxtLevel Music Stream Decentralized Vibes, FairNotes Streaming, Web2.5, Trapcard, Traptokens, Trap',
+    'Crypto Beats, Blockchain Harmony, Decentralized Soundwaves, Crypto Grooves, FairPlay Music, Artist Empowerment Hub, Transparent Tunescapes, CryptoTunes Revolution, Peer-to-Peer Melodies, Web2.5 Sonic Experience, CryptoSounds Hub, Seamless Rhythms, EmpowerArt Beats, EmpowerArt Beats, Digital Audio Freedom, CryptoWave Jams, Harmony in Blockchain, EmpowerArt Beats, NxtLevel Music Stream Decentralized Vibes, FairNotes Streaming, Web2.5, Bitcoin, Web3, Trapchain',
   twitter: {
-    title: 'Trapcard',
+    title: 'SoundMoney',
     card: 'summary_large_image',
     description:
-      'Experience the future of music streaming with Web2.5 - where transparent blockchain transactions empower artists and reward listeners. Dive into a world of fair compensation, exclusive perks, and seamless crypto payments. Join the revolution and amplify your music journey today!',
-    site: '@Trapcard',
-    creator: '@Trapcard',
+      'SoundMoney is a new direct-to-fan channel built on Bitcoin that allows Creatives to retain the majority of their profits while allowing their audience to invest in them.  - Our Business Model offers New music access and experiences - that can be accessed via artist tokens. -It does all of this while helping users earn in Bitcoin!',
+    site: '@soundmoneyxyz',
+    creator: '@SoundMoneyProtocol',
     images: '/images/home/base_d.jpg',
   },
   openGraph: {
     type: 'website',
-    url: 'https://trapcard.app',
-    title: 'Trapcard',
+    url: 'https://soundmoneyprotocol.xyz',
+    title: 'SoundMoney',
     description:
-      'Experience the future of music streaming with Web2.5 - where transparent blockchain transactions empower artists and reward listeners. Dive into a world of fair compensation, exclusive perks, and seamless crypto payments. Join the revolution and amplify your music journey today!',
-    siteName: 'Trapcard',
+      'SoundMoney is a new direct-to-fan channel built on Bitcoin that allows Creatives to retain the majority of their profits while allowing their audience to invest in them.  - Our Business Model offers New music access and experiences - that can be accessed via artist tokens. -It does all of this while helping users earn in Bitcoin!',
+    siteName: 'SoundMoney',
     images: [
       {
         url: '/images/home/base_d.jpg',

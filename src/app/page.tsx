@@ -11,7 +11,7 @@ export default function Home({
   searchParams: { msg: string };
 }) {
   return (
-    <div className=''>
+    <div className="">
       {/* <HomeContainer>
         <div className='space-y-8 md:space-y-4'>
           <p className='font-extralight dark:text-white'>
@@ -57,17 +57,20 @@ export default function Home({
           </div>
         </div>
       </HomeContainer> */}
-      <section className='relative bgAnimation h-[85vh] md:h-screen md:pt-20 pt-40 flex justify-center items-center'>
-        <div className='md:px-12 px-6 space-y-5'>
-          <h1 className='md:text-6xl text-4xl font-extrabold font-druk'>
-            <span className='bg-clip-text text-white/40'>Welcome </span>to
+      <section className="relative bgAnimation h-[85vh] md:h-screen md:pt-20 pt-40 flex justify-center items-center">
+        <div className="md:px-12 px-6 space-y-5">
+          <h1 className="md:text-6xl text-4xl font-extrabold font-druk">
+            <span className="bg-clip-text text-white/40">Welcome </span>to
             <br />
-            the <span className='bg-clip-text text-white/40'>Future</span> of
+            the <span className="bg-clip-text text-white/40">Future</span> of
             <br />
-            Music <span className='bg-clip-text text-white/40'>Streaming</span>
-            <br />Payments
+            Cultural <span className="bg-clip-text text-white/40">Social</span>
+            <br />
+            MusicFi
           </h1>
-          <p className='text-white font-gilroy text-xl'>Embrace the Power of Streaming Payments with Sound Money!</p>
+          <p className="text-white font-gilroy text-xl">
+            It does all of this while helping users earn in Bitcoin!
+          </p>
         </div>
       </section>
     </div>
