@@ -47,7 +47,7 @@ const Solarah = () => {
         </div>
         <div className="bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52">
           <h2 className="font-extrabold text-2xl text-slate-500">
-            Daily Alkhemy
+            Daily Alkhemy 🌞 Sunrise Salutations
           </h2>
           <div className="mt-6">
             <iframe
