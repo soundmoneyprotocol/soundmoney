@@ -36,6 +36,14 @@ const Solarah = () => {
             how those placements interact with cosmological energies via Tarot
             Card Readings.✨🔮
           </p>
+          <a
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+            href="https://www.solarah.xyz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            👉✨🔮Solarah.xyz
+          </a>
         </div>
         <div className="bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52">
           <h2 className="font-extrabold text-2xl text-slate-500">
