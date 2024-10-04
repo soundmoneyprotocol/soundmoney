@@ -32,9 +32,9 @@ const Solarah = () => {
           <p className="text-sm lg:max-w-96 text-justify leading-tight pt-5">
             London UK Based Solarah Speaks is a prolific cosmic visionary who
             has captivated her audience with Downloads intuited via Tarot
-            Astrology Reports that Detail a persons Astrological placements and
-            how those placements interact with cosmological energies via Tarot
-            Astrology Readings.✨🔮
+            Astrology Soul Mapping Reports that Detail a persons Astrological
+            placements and how those placements interact with cosmological
+            energies via Tarot Astrology Readings.✨🔮
           </p>
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
