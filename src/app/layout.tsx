@@ -111,6 +111,12 @@ function MainLayout({ children }: { children: React.ReactNode }) {
           >
             Play
           </Link>
+          <Link
+            href={'/wallet'}
+            className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
+          >
+            Wallet
+          </Link>
         </div>
       </footer>
     </>
