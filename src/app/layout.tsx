@@ -84,9 +84,9 @@ function MainLayout({ children }: { children: React.ReactNode }) {
       <footer className="md:px-40 px-5 flex justify-between text-sm py-5 md:fixed bottom-0 w-full bg-white">
         <p>© {new Date().getFullYear()} SoundMoney</p>
         <div className="flex gap-x-4">
-          <Link href={'/docs'} className="text-blue-600 hover:text-blue-500">
+          {/* <Link href={'/docs'} className="text-blue-600 hover:text-blue-500">
             Docs
-          </Link>
+          </Link> */}
           {/* <Link href={'/aboutus'} className='text-blue-600 hover:text-blue-500'>
             About-us
           </Link> */}
@@ -99,24 +99,24 @@ function MainLayout({ children }: { children: React.ReactNode }) {
           {/* <Link href={'/privacy'} className='text-blue-500 hover:text-blue-600'>
           Privacy Policy
         </Link> */}
-          <Link
+          {/* <Link
             href={'/swap'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
           >
             Swap
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             href={'/play'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
           >
             Play
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             href={'/wallet'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
           >
             Wallet
-          </Link>
+          </Link> */}
         </div>
       </footer>
     </>

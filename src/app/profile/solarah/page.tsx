@@ -34,8 +34,8 @@ const Solarah = () => {
             @SolarahSpeaks
           </a>
           <p className="text-sm lg:max-w-96 text-justify leading-tight pt-5">
-            Solarah, a writer, advocate, and the founder of Solarah AI Protocol,
-            is redefining the digital landscape for neurodivergent content
+            Solarah, a writer, advocate, and the founder of Solarah AI, is
+            redefining the digital landscape for neurodivergent content
             creators. Having faced numerous challenges as a neurodivergent
             individual herself, Solarahs mission is clear: to create a space
             where creators who often struggle with the neurotypical demands of
@@ -45,7 +45,7 @@ const Solarah = () => {
           </p>
           <p className="text-sm lg:max-w-96 text-justify leading-tight pt-5">
             The more support a sign gives, they get access to a dinner hosted by
-            me in their honour. 🍽️🍴
+            me in their honour. - Solarah 🍽️🍴
           </p>
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"

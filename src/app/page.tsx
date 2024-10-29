@@ -66,11 +66,11 @@ export default function Home({
             <br />
             Cultural <span className="bg-clip-text text-white/40">Social</span>
             <br />
-            MusicFi
+            Content Creation
           </h1>
           <p className="text-white font-gilroy text-xl">
-            Creators incentivize their community via Exclusive Content Access
-            Membership !
+            Creators incentivize their community via Exclusive Content Gated
+            Access Membership!
           </p>
         </div>
       </section>
