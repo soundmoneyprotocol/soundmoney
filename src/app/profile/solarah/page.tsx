@@ -31,18 +31,33 @@ const Solarah = () => {
           </a>
           <p className="text-sm lg:max-w-96 text-justify leading-tight pt-5">
             London UK Based Solarah Speaks is a prolific cosmic visionary who
-            has captivated her audience with Downloads intuited via Tarot
-            Astrology Soul Mapping Reports that Detail a persons Astrological
-            placements and how those placements interact with cosmological
-            energies via Tarot Astrology Readings.✨🔮
+            has captivated her audience with Downloads intuited via
+            Tarotstrology Soul Mapping Reports that Detail a persons
+            Astrological placements and how those placements interact with
+            cosmological energies via the '8-Ball Game'.✨🔮 Solarah, a writer,
+            advocate, and the founder of Solarah AI Protocol, is redefining the
+            digital landscape for neurodivergent content creators. Her journey,
+            marked by resilience and pioneering spirit, is an inspiring example
+            of breaking barriers and reshaping societal norms to support
+            marginalized voices. Having faced numerous challenges as a
+            neurodivergent individual herself, Solarah’s mission is clear: to
+            create a space where creators who often struggle with the
+            neurotypical demands of social media can flourish and be heard.
+            SOLARAH is Launching her own social token for her DinnerDAO
+            incentivizing her community members to contribute to the protocol
+            via exclusive DinnerDAO memberships.
+          </p>
+          <p className="text-sm lg:max-w-96 text-justify leading-tight pt-5">
+            The more support a sign gives, they get access to a dinner hosted by
+            me in their honour. 🍽️🍴
           </p>
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://www.solarah.xyz"
+            href="https://blog.solarah.xyz/solarahs-events/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            👉✨🔮Solarah.xyz
+            👉✨🔮blog.Solarah.xyz
           </a>
         </div>
         <div className="bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52">
