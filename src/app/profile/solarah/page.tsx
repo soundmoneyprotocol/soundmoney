@@ -8,7 +8,7 @@ const Solarah = () => {
         <div className="w-full relative h-[13rem]">
           <Image
             fill
-            src="/images/Solarahs_New_banner.png"
+            src="/images/solarah_new_banner.png"
             alt=""
             className="object-cover"
           />
