@@ -34,13 +34,13 @@ const Solarah = () => {
             has captivated her audience with Downloads intuited via
             Tarotstrology Soul Mapping Reports that Detail a persons
             Astrological placements and how those placements interact with
-            cosmological energies via the '8-Ball Game'.✨🔮 Solarah, a writer,
+            cosmological energies via the 8-Ball Game.✨🔮 Solarah, a writer,
             advocate, and the founder of Solarah AI Protocol, is redefining the
             digital landscape for neurodivergent content creators. Her journey,
             marked by resilience and pioneering spirit, is an inspiring example
             of breaking barriers and reshaping societal norms to support
             marginalized voices. Having faced numerous challenges as a
-            neurodivergent individual herself, Solarah’s mission is clear: to
+            neurodivergent individual herself, Solarahs mission is clear: to
             create a space where creators who often struggle with the
             neurotypical demands of social media can flourish and be heard.
             SOLARAH is Launching her own social token for her DinnerDAO
