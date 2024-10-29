@@ -69,7 +69,8 @@ export default function Home({
             MusicFi
           </h1>
           <p className="text-white font-gilroy text-xl">
-            It does all of this while helping users earn in Bitcoin!
+            Creators incentivize their community via Exclusive Content Access
+            Membership !
           </p>
         </div>
       </section>

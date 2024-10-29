@@ -91,7 +91,7 @@ function MainLayout({ children }: { children: React.ReactNode }) {
             About-us
           </Link> */}
           <Link
-            href={'/profile/djbenito304'}
+            href={'/profile/solarah'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
           >
             Demo

@@ -1,7 +1,11 @@
+'use client';
+import BroadcastStream from '@/components/BroadcastStream';
 import Image from 'next/image';
-import React from 'react';
+import Link from 'next/link';
+import React, { useState } from 'react';
 
 const Solarah = () => {
+  const [openStream, setOpenStream] = useState(false);
   return (
     <div className="md:mt-24 mt-8">
       <div className="relative">
@@ -30,22 +34,14 @@ const Solarah = () => {
             @SolarahSpeaks
           </a>
           <p className="text-sm lg:max-w-96 text-justify leading-tight pt-5">
-            London UK Based Solarah Speaks is a prolific cosmic visionary who
-            has captivated her audience with Downloads intuited via
-            Tarotstrology Soul Mapping Reports that Detail a persons
-            Astrological placements and how those placements interact with
-            cosmological energies via the 8-Ball Game.✨🔮 Solarah, a writer,
-            advocate, and the founder of Solarah AI Protocol, is redefining the
-            digital landscape for neurodivergent content creators. Her journey,
-            marked by resilience and pioneering spirit, is an inspiring example
-            of breaking barriers and reshaping societal norms to support
-            marginalized voices. Having faced numerous challenges as a
-            neurodivergent individual herself, Solarahs mission is clear: to
-            create a space where creators who often struggle with the
-            neurotypical demands of social media can flourish and be heard.
-            SOLARAH is Launching her own social token for her DinnerDAO
-            incentivizing her community members to contribute to the protocol
-            via exclusive DinnerDAO memberships.
+            Solarah, a writer, advocate, and the founder of Solarah AI Protocol,
+            is redefining the digital landscape for neurodivergent content
+            creators. Having faced numerous challenges as a neurodivergent
+            individual herself, Solarahs mission is clear: to create a space
+            where creators who often struggle with the neurotypical demands of
+            social media can flourish and be heard. SOLARAH is Launching a
+            Dinner Club for her community incentivizing her community members to
+            contribute to the platform via exclusive Dinner Club memberships.
           </p>
           <p className="text-sm lg:max-w-96 text-justify leading-tight pt-5">
             The more support a sign gives, they get access to a dinner hosted by
@@ -59,6 +55,9 @@ const Solarah = () => {
           >
             👉✨🔮blog.Solarah.xyz
           </a>
+        </div>
+        <div className={` h-80 w-80 mt-8 fixed -bottom-20 left-5`}>
+          <BroadcastStream />
         </div>
         <div className="bg-gray-50 flex-1 self-stretch py-8 px-6 h-full pb-52">
           <h2 className="font-extrabold text-2xl text-slate-500">
