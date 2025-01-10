@@ -69,8 +69,7 @@ export default function Home({
             Content Creation
           </h1>
           <p className="text-white font-gilroy text-xl">
-            Creators incentivize their community via Exclusive Content Gated
-            Access Membership!
+            Social Token Community w/BEZY should “Be Easy Breezy”
           </p>
         </div>
       </section>

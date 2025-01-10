@@ -90,21 +90,21 @@ function MainLayout({ children }: { children: React.ReactNode }) {
           {/* <Link href={'/aboutus'} className='text-blue-600 hover:text-blue-500'>
             About-us
           </Link> */}
-          <Link
+          {/* <Link
             href={'/profile/solarah'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
           >
             Demo
-          </Link>
+          </Link> */}
           {/* <Link href={'/privacy'} className='text-blue-500 hover:text-blue-600'>
           Privacy Policy
         </Link> */}
-          {/* <Link
-            href={'/swap'}
+          <Link
+            href={'/bezy'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
           >
-            Swap
-          </Link> */}
+            Bezy
+          </Link>
           {/* <Link
             href={'/play'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
