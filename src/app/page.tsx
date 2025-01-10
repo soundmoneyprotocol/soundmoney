@@ -69,7 +69,7 @@ export default function Home({
             Content Creation
           </h1>
           <p className="text-white font-gilroy text-xl">
-            Social Streaming Token Community w/$BEZY should “Be Easy Breezy”
+            Social Streaming Token Community w/₿EZY should “Be Easy Breezy”
           </p>
         </div>
       </section>

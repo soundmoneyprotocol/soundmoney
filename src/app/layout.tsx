@@ -87,10 +87,13 @@ function MainLayout({ children }: { children: React.ReactNode }) {
           <Link href={'/docs'} className="text-blue-600 hover:text-blue-500">
             Docs
           </Link>
-          <Link href={'/aboutus'} className='text-blue-600 hover:text-blue-500'>
-            About-us
+          <Link href={'/swap'} className="text-blue-600 hover:text-blue-500">
+            Swap
           </Link>
-          
+          <Link href={'/saga'} className="text-blue-600 hover:text-blue-500">
+            Saga
+          </Link>
+
           <Link
             href={'/profile/solarah'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
