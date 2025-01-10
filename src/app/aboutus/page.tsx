@@ -1,21 +1,25 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
+import React from 'react';
 
 const AboutUs = () => {
   return (
-    <main className=''>
-      <section className='relative bgAnimation h-[85vh] md:h-screen md:pt-20 pt-40 flex justify-center items-center'>
-        <div className='md:px-12 px-6 space-y-5'>
-          <h1 className='md:text-6xl text-4xl font-extrabold font-druk'>
-            <span className='bg-clip-text text-white/40'>Welcome </span>to
+    <main className="">
+      <section className="relative bgAnimation h-[85vh] md:h-screen md:pt-20 pt-40 flex justify-center items-center">
+        <div className="md:px-12 px-6 space-y-5">
+          <h1 className="md:text-6xl text-4xl font-extrabold font-druk">
+            <span className="bg-clip-text text-white/40">Welcome </span>to
             <br />
-            the <span className='bg-clip-text text-white/40'>Future</span> of
+            the <span className="bg-clip-text text-white/40">Future</span> of
             <br />
-            Music <span className='bg-clip-text text-white/40'>Streaming</span>
-            <br />Payments
+            Cultural <span className="bg-clip-text text-white/40">Social</span>
+            <br />
+            Content Creation
           </h1>
-          <p className='text-white font-gilroy text-xl'>Embrace the Power of Streaming Payments with Sound Money!</p>
+          <p className="text-white font-gilroy text-xl">
+            Creators incentivize their community via Exclusive Content Gated
+            Access Membership!
+          </p>
         </div>
       </section>
       {/* <section className='py-20 md:px-12 px-6'>
@@ -250,7 +254,7 @@ const AboutUs = () => {
         </div>
       </section> */}
     </main>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;

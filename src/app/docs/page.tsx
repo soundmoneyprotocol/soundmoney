@@ -107,11 +107,10 @@ const Docs = () => {
           Unleashing the Potential
         </h2>
         <p className="md:px-20 px-6 text-xl text-justify font-semibold text-black/85">
-          This is how Social Tokens work: Sound Money is a new direct-to-fan
-          channel built on Bitcoin that allows creatives to retain the majority
-          of his profits while allowing his fans to invest in them. Our Business
-          Model offers New exclusive access and experiences - that can be
-          accessed via social tokens.
+          This is how Social Tokens work: Sound Money is a new
+          direct-to-consumer channel that allows creatives to reward their fans
+          with exclusive content. Our Business Model offers New exclusive access
+          and experiences - that can be accessed via membership passports.
         </p>
         <div className="flex md:flex-row flex-col gap-6 py-20">
           <div className="border shadow-lg rounded-md p-8 space-y-4">
@@ -123,12 +122,10 @@ const Docs = () => {
                 Embrace Decentralization
               </h3>
               <p className="text-sm">
-                SoundMoney is a new direct-to-fan channel built on Bitcoin that
-                allows Creatives to retain the majority of their profits while
-                allowing their audiences to invest in them. Our Business Model
-                offers New exclusive access and experiences - that can be
-                accessed via social tokens. It does all of this while helping
-                users earn in Bitcoin!
+                SoundMoney is a launchpad that assists Creatives in building
+                authentic and intimate experiences with their community. Our
+                Business Model offers New exclusive access and experiences -
+                that can be accessed via membership passports.
               </p>
             </div>
           </div>
@@ -141,12 +138,12 @@ const Docs = () => {
                 Seamless Transactions
               </h3>
               <p className="text-sm">
-                Gone are the days of complex payment processes. With crypto
-                payments integrated into Web2.5 music streaming, enjoy the
-                simplicity of swift and secure transactions. Whether you&apos;re
-                subscribing to premium features, supporting your favorite
-                artists, or exploring exclusive content, every transaction is as
-                smooth as your favorite track&apos;s melody.
+                Gone are the days of complex payment processes. With Solarah
+                Pay, enjoy the simplicity of swift and secure transactions.
+                Whether you&apos;re subscribing to premium features, supporting
+                your favorite content creators, or exploring exclusive content,
+                every transaction is as smooth as your favorite track&apos;s
+                melody.
               </p>
             </div>
           </div>

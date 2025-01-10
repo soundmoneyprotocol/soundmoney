@@ -20,7 +20,7 @@ export const AppNavBar = async () => {
           <span className="sr-only">SoundMoney</span>
           <img
             className="md:h-8 md:w-auto w-32 backdrop-blur-[1px]"
-            src="/images/soundmoney_black.png"
+            src="/images/soundmoney-blk-logo.png"
             alt="soundmoney_black"
           />
         </Link>
