@@ -90,10 +90,10 @@ function MainLayout({ children }: { children: React.ReactNode }) {
           >
             Bezy
           </Link>
-
+          {/* 
           <Link href={'/saga'} className="text-blue-600 hover:text-blue-500">
             Saga
-          </Link>
+          </Link> */}
 
           <Link
             href={'/profile/solarah'}
@@ -105,19 +105,19 @@ function MainLayout({ children }: { children: React.ReactNode }) {
           Privacy Policy
         </Link> */}
 
-          <Link
+          {/* <Link
             href={'/play'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
           >
             Play
-          </Link>
+          </Link> */}
 
           <Link href={'/swap'} className="text-blue-600 hover:text-blue-500">
             Swap
           </Link>
-          <Link href={'/docs'} className="text-blue-600 hover:text-blue-500">
+          {/* <Link href={'/docs'} className="text-blue-600 hover:text-blue-500">
             Docs
-          </Link>
+          </Link> */}
           {/* <Link
             href={'/wallet'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
