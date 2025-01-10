@@ -85,13 +85,28 @@ function MainLayout({ children }: { children: React.ReactNode }) {
         <p>© {new Date().getFullYear()} SoundMoney</p>
         <div className="flex gap-x-4">
           <Link href={'/docs'} className="text-blue-600 hover:text-blue-500">
+            {/* <Link href={'/privacy'} className='text-blue-500 hover:text-blue-600'>
+          Privacy Policy
+        </Link> */}
+            <Link
+              href={'/bezy'}
+              className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
+            >
+              Bezy
+            </Link>
+            <Link
+              href={'/play'}
+              className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
+            >
+              Play
+            </Link>
+            <Link href={'/saga'} className="text-blue-600 hover:text-blue-500">
+              Saga
+            </Link>
             Docs
           </Link>
           <Link href={'/swap'} className="text-blue-600 hover:text-blue-500">
             Swap
-          </Link>
-          <Link href={'/saga'} className="text-blue-600 hover:text-blue-500">
-            Saga
           </Link>
 
           <Link
@@ -99,21 +114,6 @@ function MainLayout({ children }: { children: React.ReactNode }) {
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
           >
             Demo
-          </Link>
-          {/* <Link href={'/privacy'} className='text-blue-500 hover:text-blue-600'>
-          Privacy Policy
-        </Link> */}
-          <Link
-            href={'/bezy'}
-            className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
-          >
-            Bezy
-          </Link>
-          <Link
-            href={'/play'}
-            className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
-          >
-            Play
           </Link>
           {/* <Link
             href={'/wallet'}
