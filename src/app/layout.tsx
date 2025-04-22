@@ -96,10 +96,10 @@ function MainLayout({ children }: { children: React.ReactNode }) {
           </Link> */}
 
           <Link
-            href={'/profile/solarah'}
+            href={'/saga'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
           >
-            Demo
+            Network
           </Link>
           {/* <Link href={'/privacy'} className='text-blue-500 hover:text-blue-600'>
           Privacy Policy
@@ -109,7 +109,7 @@ function MainLayout({ children }: { children: React.ReactNode }) {
             href={'/play'}
             className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
           >
-            Play
+            Social
           </Link>
 
           {/* <Link href={'/swap'} className="text-blue-600 hover:text-blue-500">
