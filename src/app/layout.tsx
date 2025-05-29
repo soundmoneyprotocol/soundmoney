@@ -2,7 +2,7 @@ import React from 'react';
 import './global.css';
 import { AppNavBar } from '@/components/navigation';
 import Link from 'next/link';
-import { Montserrat } from 'next/font/google';
+import { Montserrat  } from 'next/font/google';
 import localFont from 'next/font/local';
 import type { Metadata } from 'next';
 
@@ -11,17 +11,37 @@ const mont = Montserrat({
   variable: '--font-mont',
   display: 'swap',
 });
+// const mona = ({
+//   subsets: ['latin'],
+//   variable: '--font-mona',
+//   display: 'swap',
+// });
 
 const druk = localFont({
   src: '../lib/fonts/Druk/Druk Wide-Super-Web.woff2',
   display: 'swap',
   variable: '--font-druk',
 });
+const mona = localFont({
+  src: [
+    {
+      path: '../lib/fonts/mona-sans/fonnts.com-Mona-Sans-Regular.ttf',
+      weight: '300'
+    }
+  ],
+  display: 'swap',
+  variable: '--font-mona',
+});
 
 const gilroy = localFont({
   src: '../lib/fonts/Gilroy/GilroyExtraBold/font.woff2',
   display: 'swap',
   variable: '--font-gilroy',
+});
+const monaCon = localFont({
+  src: '../lib/fonts/mona-sans/mona-sans-semi-condensed-regular.ttf',
+  display: 'swap',
+  variable: '--font-monaCon',
 });
 export const metadata: Metadata = {
   // viewport: { width: 'device-width', initialScale: 1 },
@@ -65,7 +85,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${druk.variable} ${gilroy.variable} ${mont.className}`}
+      className={`${druk.variable} ${gilroy.variable} ${mont.className} ${mona.className} ${monaCon.variable} `}
     >
       <body>
         <MainLayout>{children}</MainLayout>
@@ -81,7 +101,7 @@ function MainLayout({ children }: { children: React.ReactNode }) {
         <AppNavBar />
       </header>
       <main>{children}</main>
-      <footer className="md:px-40 px-5 flex justify-between text-sm py-5 md:fixed bottom-0 w-full bg-white">
+      <footer className="md:px-40 px-5 flex justify-between text-sm py-5 w-full">
         <p>© {new Date().getFullYear()} SoundMoney</p>
         <div className="flex gap-x-4">
           <Link
