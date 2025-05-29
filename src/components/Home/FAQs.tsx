@@ -6,6 +6,7 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion"
 import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 
 export const FAQs = () => {
