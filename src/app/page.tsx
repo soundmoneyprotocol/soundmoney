@@ -1,9 +1,19 @@
 import TextAnimation from '@/components/TextAnimation';
 import { HomeContainer } from '@/components/content';
+import { Hero } from '@/components/Home/Hero';
+import { About } from '@/components/Home/About';
+import { Protocols } from '@/components/Home/Protocols';
+// import { Milestones } from '@/components/Home/Milestones';
 import { RegisterButton } from '@/components/inputs/button';
 import { signUp } from '@/lib/actions';
 import Link from 'next/link';
 import React from 'react';
+import { Milestones } from '@/components/Home/Milestones';
+import { FeaturedArtists } from '@/components/Home/FeaturedArtists';
+import { Infrastructure } from '@/components/Home/Infrastructure';
+import { GettingStarted } from '@/components/Home/GettingStarted';
+import { FAQs } from '@/components/Home/FAQs';
+import { CTA } from '@/components/Home/CTA';
 
 export default function Home({
   searchParams,
@@ -57,7 +67,7 @@ export default function Home({
           </div>
         </div>
       </HomeContainer> */}
-      <section className="relative bgAnimation h-[85vh] md:h-screen md:pt-20 pt-40 flex justify-center items-center">
+      {/* <section className="relative bgAnimation h-[85vh] md:h-screen md:pt-20 pt-40 flex justify-center items-center">
         <div className="md:px-12 px-6 space-y-5">
           <h1 className="md:text-6xl text-4xl font-extrabold font-druk">
             <span className="bg-clip-text text-white/40">Welcome </span>to
@@ -72,6 +82,16 @@ export default function Home({
             Social Streaming Token Community w/₿EZY should “Be Easy Breezy”
           </p>
         </div>
+      </section> */}
+      <section>
+        <Hero/>
+        <About/>
+        <Protocols/>
+        <FeaturedArtists/>
+        <GettingStarted />
+        <Infrastructure />
+        <FAQs />
+        <CTA />
       </section>
     </div>
   );
