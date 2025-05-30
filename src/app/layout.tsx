@@ -2,9 +2,10 @@ import React from 'react';
 import './global.css';
 import { AppNavBar } from '@/components/navigation';
 import Link from 'next/link';
-import { Montserrat  } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 import localFont from 'next/font/local';
 import type { Metadata } from 'next';
+import { Footer } from '@/components/navigation/Footer';
 
 const mont = Montserrat({
   subsets: ['latin'],
@@ -76,7 +77,51 @@ export const metadata: Metadata = {
     ],
   },
 };
+<footer className="md:px-40 px-5 flex justify-between text-sm py-5 w-full">
+  <p>© {new Date().getFullYear()} SoundMoney</p>
+  <div className="flex gap-x-4">
+    <Link
+      href={'/bezy'}
+      className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
+    >
+      Bezy
+    </Link>
+    {/* 
+          <Link href={'/saga'} className="text-blue-600 hover:text-blue-500">
+            Saga
+          </Link> */}
 
+    <Link
+      href={'/saga'}
+      className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
+    >
+      Network
+    </Link>
+    {/* <Link href={'/privacy'} className='text-blue-500 hover:text-blue-600'>
+          Privacy Policy
+        </Link> */}
+
+    <Link
+      href={'/play'}
+      className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
+    >
+      Social
+    </Link>
+
+    {/* <Link href={'/swap'} className="text-blue-600 hover:text-blue-500">
+            Swap
+          </Link> */}
+    {/* <Link href={'/docs'} className="text-blue-600 hover:text-blue-500">
+            Docs
+          </Link> */}
+    {/* <Link
+            href={'/wallet'}
+            className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
+          >
+            Wallet
+          </Link> */}
+  </div>
+</footer>
 export default function RootLayout({
   children,
 }: {
@@ -101,51 +146,7 @@ function MainLayout({ children }: { children: React.ReactNode }) {
         <AppNavBar />
       </header>
       <main>{children}</main>
-      <footer className="md:px-40 px-5 flex justify-between text-sm py-5 w-full">
-        <p>© {new Date().getFullYear()} SoundMoney</p>
-        <div className="flex gap-x-4">
-          <Link
-            href={'/bezy'}
-            className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
-          >
-            Bezy
-          </Link>
-          {/* 
-          <Link href={'/saga'} className="text-blue-600 hover:text-blue-500">
-            Saga
-          </Link> */}
-
-          <Link
-            href={'/saga'}
-            className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
-          >
-            Network
-          </Link>
-          {/* <Link href={'/privacy'} className='text-blue-500 hover:text-blue-600'>
-          Privacy Policy
-        </Link> */}
-
-          <Link
-            href={'/play'}
-            className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
-          >
-            Social
-          </Link>
-
-          {/* <Link href={'/swap'} className="text-blue-600 hover:text-blue-500">
-            Swap
-          </Link> */}
-          {/* <Link href={'/docs'} className="text-blue-600 hover:text-blue-500">
-            Docs
-          </Link> */}
-          {/* <Link
-            href={'/wallet'}
-            className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
-          >
-            Wallet
-          </Link> */}
-        </div>
-      </footer>
+<Footer />
     </>
   );
 }
