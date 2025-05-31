@@ -28,15 +28,18 @@ export const FeaturedArtists = () => {
     <TabsTrigger value="art" className='data-[state=active]:bg-black py-2 px-4 rounded-full data-[state=active]:text-white'>Art</TabsTrigger>
     <TabsTrigger value="creators" className='data-[state=active]:bg-black py-2 px-4 rounded-full data-[state=active]:text-white'>Creators</TabsTrigger>
   </TabsList>
-  <TabsContent value="artists">
-    <div className='max-w-3xl mx-auto grid grid-cols-2 text-[#141029CC] gap-4'>
+  <TabsContent value="artists" className='bg-white rounded-2xl shadow-xl mx-4 p-4 my-12'>
+    {/* <div>
+      
+    </div> */}
+    <div className='max-w-3xl mx-auto grid md:grid-cols-2 text-[#141029CC] gap-4'>
         <div className='bg-[#1410290F] relative rounded-xl col-span-1'>
     <input className='w-full py-2.5 pl-10 bg-transparent' placeholder='Search For Token'/>
 <Search size={18} className='absolute left-2 top-1/2 -translate-y-1/2 text-[#141029CC]'/>
         </div>
 <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className='border rounded-xl bg-[#1410290F] flex items-center px-2 justify-between col-span-1'>Set Featured 🔥 <span><ChevronDown/></span></button>
+        <button className='border rounded-xl bg-[#1410290F] py-2.5 flex items-center px-2 justify-between col-span-1'>Set Featured 🔥 <span><ChevronDown/></span></button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
         <DropdownMenuLabel>My Account</DropdownMenuLabel>
@@ -118,7 +121,7 @@ export const FeaturedArtists = () => {
 </div>
 </div>
 <div className='flex flex-col justify-center items-center'>
-    <h3 className='text-[100px] font-black -tracking-[1%] leading-[110%] font-monaCon'>Willie Taylor</h3>
+    <h3 className='text-[100px] font-black -tracking-[1%] leading-[110%] font-monaCon text-center'>Willie Taylor</h3>
  <button className='bg-black font-bold font-mona text-white rounded-xl py-[13px] px-[25px]'>Browse Artists</button>
  </div>
  {/* ART TAB */}

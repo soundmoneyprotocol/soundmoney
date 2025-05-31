@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { NavBarLoginBtn, NavBarLogoutBtn, ThemeButton } from '../inputs/button';
+// import { NavBarLoginBtn, NavBarLogoutBtn, ThemeButton } from '../inputs/button';
 import { createClient } from '@/utils/supabase/server';
 import { cookies } from 'next/headers';
 import { ArrowRight } from 'lucide-react';
@@ -29,8 +29,11 @@ export const AppNavBar = async () => {
       </div>
 
       <div className="flex md:gap-x-4 gap-x-2 items-center">
+        <div className=' hidden md:flex'>
       <button className='flex items-center gap-x-2 border border-black rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]'>Buy Bezy     <ArrowRight /></button>
       <button className='bg-black text-white rounded-xl py-[13px] px-[25px]'>Soundmoney.social App</button>
+
+        </div>
       <button className='w-[68px] h-[26px] flex flex-col justify-between'>
         <div className='w-full bg-black border-b-2 border-black'/>
         <div className='w-full bg-black border-b-2 border-black'/>
