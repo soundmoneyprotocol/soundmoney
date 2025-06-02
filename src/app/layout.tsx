@@ -98,7 +98,7 @@ export default function RootLayout({
 function MainLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <header className="md:fixed inset-x-0 top-0 z-50">
+      <header className="">
         <AppNavBar />
       </header>
       <main>{children}</main>
