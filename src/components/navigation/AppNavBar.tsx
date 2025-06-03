@@ -61,7 +61,7 @@ export const AppNavBar = () => {
 
       <div className="flex md:gap-x-4 gap-x-2 items-center">
         <div className=' hidden md:flex gap-x-5'>
-          <button className='flex items-center gap-x-2 border border-black rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]'>Buy Bezy     <ArrowRight /></button>
+          <button className='flex items-center gap-x-2 border border-black rounded-xl w-full py-[13px] shadow-[0px_1px_2px_0px_#1018280D]'>Buy Bezy     <ArrowRight /></button>
           <button className='bg-black text-white rounded-xl py-[13px] px-[25px]'>Soundmoney.social App</button>
 
         </div>
@@ -89,7 +89,7 @@ export const AppNavBar = () => {
 
                 {/* Sliding Nav Menu */}
                 <motion.div
-                  className="fixed top-0 left-0 right-0 z-50 bg-white h-[50vh] shadow-lg p-6"
+                  className="fixed top-0 left-0 right-0 z-50 bg-black text-white h-[60vh] shadow-lg hidden md:block overflow-y-auto"
                   variants={menuVariants}
                   initial="hidden"
                   animate="visible"
@@ -101,22 +101,128 @@ export const AppNavBar = () => {
                     mass: 0.8        // Optional: adds a bit more gravity-like feel
                   }}
                 >
-                  <div className="flex justify-between items-center mb-6">
-                    <h2 className="text-xl font-semibold">Navigation</h2>
-                    <button onClick={() => setIsOpen(false)}>
-                      <X className="h-5 w-5" />
-                    </button>
+                  <div className='flex items-center justify-between p-6'>
+                    <div className="flex lg:flex-1">
+                      <Link href="/" className="-m-1.5 p-1.5">
+                        <span className="sr-only">SoundMoney logo</span>
+                        <img
+                          className="md:h-8 md:w-auto w-32 backdrop-blur-[1px]"
+                          src="/images/sound-logo-w.svg"
+                          alt="logo_white"
+                        />
+                      </Link>
+                    </div>
+                    <div className="flex md:gap-x-4 gap-x-2 items-center">
+                      <div className=' hidden md:flex gap-x-5 items-center'>
+                        <button className='flex items-center gap-x-2 border border-white rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]'>Buy Bezy     <ArrowRight /></button>
+                        <button className='bg-white text-black rounded-xl py-[13px] px-[25px]'>Soundmoney.social App</button>
+
+                      </div>
+                      <div>
+                        {/* Toggle Button */}
+                        <button onClick={() => setIsOpen(false)}>
+                          <X className="h-12 w-12" />
+                        </button>
+                      </div>
+                    </div>
                   </div>
-                  <nav className="space-y-4">
-                    <a href="#" className="block text-lg hover:text-primary">Home</a>
-                    <a href="#" className="block text-lg hover:text-primary">About</a>
-                    <a href="#" className="block text-lg hover:text-primary">Services</a>
-                    <a href="#" className="block text-lg hover:text-primary">Contact</a>
-                  </nav>
+
+                  <div className='w-full border-y border-dotted  border-[#EFF3F5] text-white h-16 mt-4'>
+
+                  </div>
+                  <div className='w-full border-b border-dotted  border-[#EFF3F5] text-white h-16 flex items-center justify-center'>
+                    <div className='flex justify-center items-center gap-x-8 text-xl py-1'>
+                      <Link href="/" className='text-[#FD7125] font-bold'>Home</Link>
+                      <p className="">/</p>
+                      <Link href="/">Earn</Link>
+                      <p className="">/</p>
+                      <Link href="/">$BEZY</Link>
+                      <p className="">/</p>
+                      <Link href="/">Blog</Link>
+                      <p className="">/</p>
+                      <Link href="/">Press</Link>
+                      <p className="">/</p>
+                      <Link href="/">Gallery</Link>
+                      <p className="">/</p>
+                      <Link href="/">SocialFi</Link>
+                    </div>
+                  </div>
+                  <div className='w-full border-b border-dotted  border-[#EFF3F5] text-white h-16'>
+
+                  </div>
+
+                  {/* <div></div>
+                  <div></div> */}
                 </motion.div>
               </>
             )}
+
+            <motion.div
+              className='md:hidden fixed top-0 left-0 right-0 z-50 h-screen bg-black text-white overflow-y-auto'
+              variants={menuVariants}
+              initial="hidden"
+              animate="visible"
+              exit="exit"
+              transition={{
+                type: 'spring',
+                stiffness: 100,  // Lower stiffness = slower, smoother motion
+                damping: 18,     // Damping controls how much it "bounces"
+                mass: 0.8        // Optional: adds a bit more gravity-like feel
+              }}
+            >
+              <div className='flex items-center justify-between p-6'>
+                <div className="flex lg:flex-1">
+                  <Link href="/" className="-m-1.5 p-1.5">
+                    <span className="sr-only">SoundMoney logo</span>
+                    <img
+                      className="md:h-8 md:w-auto w-32 backdrop-blur-[1px]"
+                      src="/images/sound-logo-w.svg"
+                      alt="logo_white"
+                    />
+                  </Link>
+                </div>
+                <div className="flex md:gap-x-4 gap-x-2 items-center">
+                  {/* <div className=' hidden md:flex gap-x-5 items-center'>
+                        <button className='flex items-center gap-x-2 border border-white rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]'>Buy Bezy     <ArrowRight /></button>
+                        <button className='bg-white text-black rounded-xl py-[13px] px-[25px]'>Soundmoney.social App</button>
+
+                      </div> */}
+                  <div>
+                    {/* Toggle Button */}
+                    <button onClick={() => setIsOpen(false)}>
+                      <X className="h-12 w-12" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className='w-full border-y border-dotted  border-[#EFF3F5] text-white h-16 mt-4'>
+
+              </div>
+              <div className='w-full border-b border-dotted  border-[#EFF3F5] text-white py-8 flex items-center justify-center'>
+                <div className='flex flex-col justify-center items-center gap-x-8 text-xl gap-y-4'>
+                  <Link href="/" className='text-[#FD7125] font-bold'>/ Home</Link>
+                  <Link href="/">/ About</Link>
+                  <Link href="/">/ Blog</Link>
+                  <Link href="/">/ Press</Link>
+                  <Link href="/">/ Gallery</Link>
+                  <Link href="/">/ SocialFi</Link>
+                  <Link href="/">/ Earn</Link>
+                  <Link href="/">/ Ecosystem</Link>
+                  <Link href="/">/ Contact</Link>
+                </div>
+              </div>
+              <div className='w-full border-b border-dotted  border-[#EFF3F5] text-white h-16'>
+
+              </div>
+              <div className='flex flex-col justify-center gap-x-5 items-center w-72 mx-auto mt-8 space-y-4'>
+                <button className='flex justify-center items-center gap-x-2 border border-white rounded-xl py-5 w-full shadow-[0px_1px_2px_0px_#1018280D]'>Buy Bezy     <ArrowRight /></button>
+                <button className='bg-white text-black rounded-xl w-full py-5'>Soundmoney.social App</button>
+
+              </div>
+            </motion.div>
+
           </AnimatePresence>
+          <></>
         </div>
         {/* <button className='w-[68px] h-[26px] flex flex-col justify-between'>
         <div className='w-full bg-black border-b-2 border-black'/>

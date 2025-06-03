@@ -6,7 +6,7 @@ import { FAQs } from '@/components/Home/FAQs';
 export const Infrastructure = () => {
     return (
         <div className='px-4 md:px-12 py-20 mx-4 md:mx-12 rounded-3xl shadow-2xl bg-white space-y-12 '>
-            <h3 className='text-[34px] md:text-[64px] text-center font-bold -tracking-[1%] leading-[110%] font-monaCon'>Built for Web3 Creators. <br /> Backed by Real<br /> Infrastructure</h3>
+            <h3 className='text-[34px] md:text-[64px] text-center font-bold -tracking-[1%] leading-[110%] font-monaCon relative'>Built for Web3 Creators. <br /> Backed by Real<br /> <span className='relative z-10 text-white'>Infrastructure<img className='absolute top-3 md:top-5 left-2 md:inset-x-0 -z-10 scale-x-110' src="/images/black_vector.svg" alt="" /></span></h3>
             <div className='flex flex-col justify-center items-center space-y-8'>
                 <div className='bg-[#EFF3F5] max-w-5xl rounded-3xl w-full shadow-lg grid grid-cols-1 lg:grid-cols-2 p-4 md:p-8 gap-y-8 sticky top-10 z-0'>
                     <div className='col-span-1 flex flex-col justify-between space-y-4'>
