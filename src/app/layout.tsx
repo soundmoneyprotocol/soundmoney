@@ -77,51 +77,7 @@ export const metadata: Metadata = {
     ],
   },
 };
-<footer className="md:px-40 px-5 flex justify-between text-sm py-5 w-full">
-  <p>© {new Date().getFullYear()} SoundMoney</p>
-  <div className="flex gap-x-4">
-    <Link
-      href={'/bezy'}
-      className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
-    >
-      Bezy
-    </Link>
-    {/* 
-          <Link href={'/saga'} className="text-blue-600 hover:text-blue-500">
-            Saga
-          </Link> */}
 
-    <Link
-      href={'/saga'}
-      className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
-    >
-      Network
-    </Link>
-    {/* <Link href={'/privacy'} className='text-blue-500 hover:text-blue-600'>
-          Privacy Policy
-        </Link> */}
-
-    <Link
-      href={'/play'}
-      className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
-    >
-      Social
-    </Link>
-
-    {/* <Link href={'/swap'} className="text-blue-600 hover:text-blue-500">
-            Swap
-          </Link> */}
-    {/* <Link href={'/docs'} className="text-blue-600 hover:text-blue-500">
-            Docs
-          </Link> */}
-    {/* <Link
-            href={'/wallet'}
-            className="text-blue-600 hover:text-blue-500 text-sm md:text-base"
-          >
-            Wallet
-          </Link> */}
-  </div>
-</footer>
 export default function RootLayout({
   children,
 }: {
@@ -130,7 +86,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${druk.variable} ${gilroy.variable} ${mont.className} ${mona.className} ${monaCon.variable} `}
+      className={`${druk.variable} ${gilroy.variable} ${mont.className} ${mona.className} ${monaCon.variable} bg-[#cfd1d3]`}
     >
       <body>
         <MainLayout>{children}</MainLayout>
@@ -142,7 +98,7 @@ export default function RootLayout({
 function MainLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <header className="md:fixed inset-x-0 top-0 z-50">
+      <header className="">
         <AppNavBar />
       </header>
       <main>{children}</main>

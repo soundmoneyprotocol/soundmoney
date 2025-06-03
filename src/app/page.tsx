@@ -90,7 +90,7 @@ export default function Home({
         <FeaturedArtists/>
         <GettingStarted />
         <Infrastructure />
-        <FAQs />
+        {/* <FAQs /> */}
         <CTA />
       </section>
     </div>

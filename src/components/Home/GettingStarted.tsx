@@ -3,10 +3,10 @@ import { ArrowRight } from 'lucide-react';
 
 export const GettingStarted = () => {
     return (
-        <div className='py-12'>
+        <div className='py-12 px-4'>
             <h3 className='text-4xl text-center font-black -tracking-[1%] leading-[110%] font-monaCon pb-8'>Getting Started is easy</h3>
             <div className='max-w-5xl mx-auto space-y-6'>
-                <div className='bg-white border rounded-xl py-4 items-center flex justify-between px-4'>
+                <div className='bg-white border rounded-xl py-4 md:items-center flex flex-col md:flex-row justify-between p-4 gap-y-8'>
                     <div className='flex gap-4 items-center'>
                         <div className='bg-black rounded-lg p-2 w-fit'>
                             <img src="/images/icons/icon-check.svg" alt="check" />
@@ -15,7 +15,7 @@ export const GettingStarted = () => {
                     </div>
                     <p className='text-sm max-w-lg text-gray-400 ml-auto'>Connect your Spotify account in seconds to start earning and sharing with your fans—no setup hassle.</p>
                 </div>
-                <div className='bg-white border rounded-xl py-4 items-center flex justify-between px-4'>
+                <div className='bg-white border rounded-xl md:items-center flex flex-col md:flex-row justify-between p-4 gap-y-8'>
                     <div className='flex gap-4 items-center'>
                         <div className='bg-black rounded-lg p-2 w-fit'>
                             <img src="/images/icons/icon-check.svg" alt="check" />
@@ -24,7 +24,7 @@ export const GettingStarted = () => {
                     </div>
                     <p className='text-sm max-w-lg text-gray-400 ml-auto'>Grow the community—invite up to three creators to join the platform with your unique access.</p>
                 </div>
-                <div className='bg-white border rounded-xl py-4 items-center flex justify-between px-4'>
+                <div className='bg-white border rounded-xl md:items-center flex flex-col md:flex-row justify-between p-4 gap-y-8'>
                     <div className='flex gap-4 items-center'>
                         <div className='bg-black rounded-lg p-2 w-fit'>
                             <img src="/images/icons/icon-check.svg" alt="check" />
