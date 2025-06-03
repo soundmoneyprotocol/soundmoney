@@ -14,6 +14,8 @@ import { Infrastructure } from '@/components/Home/Infrastructure';
 import { GettingStarted } from '@/components/Home/GettingStarted';
 import { FAQs } from '@/components/Home/FAQs';
 import { CTA } from '@/components/Home/CTA';
+import { ReactLenis } from "@/lib/lenis"
+
 
 export default function Home({
   searchParams,
@@ -21,8 +23,10 @@ export default function Home({
   searchParams: { msg: string };
 }) {
   return (
-    <div className="">
-      {/* <HomeContainer>
+    <ReactLenis options={{ duration: 1.5 }} root>
+
+      <div className="">
+        {/* <HomeContainer>
         <div className='space-y-8 md:space-y-4'>
           <p className='font-extralight dark:text-white'>
             Trapcard is currently invite-only
@@ -67,7 +71,7 @@ export default function Home({
           </div>
         </div>
       </HomeContainer> */}
-      {/* <section className="relative bgAnimation h-[85vh] md:h-screen md:pt-20 pt-40 flex justify-center items-center">
+        {/* <section className="relative bgAnimation h-[85vh] md:h-screen md:pt-20 pt-40 flex justify-center items-center">
         <div className="md:px-12 px-6 space-y-5">
           <h1 className="md:text-6xl text-4xl font-extrabold font-druk">
             <span className="bg-clip-text text-white/40">Welcome </span>to
@@ -83,16 +87,17 @@ export default function Home({
           </p>
         </div>
       </section> */}
-      <section>
-        <Hero/>
-        <About/>
-        <Protocols/>
-        <FeaturedArtists/>
-        <GettingStarted />
-        <Infrastructure />
-        {/* <FAQs /> */}
-        <CTA />
-      </section>
-    </div>
+        <section>
+          <Hero />
+          <About />
+          <Protocols />
+          <FeaturedArtists />
+          <GettingStarted />
+          <Infrastructure />
+          {/* <FAQs /> */}
+          <CTA />
+        </section>
+      </div>
+    </ReactLenis>
   );
 }

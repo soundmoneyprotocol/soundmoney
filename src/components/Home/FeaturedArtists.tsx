@@ -39,7 +39,7 @@ export const FeaturedArtists = () => {
               </div>
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <button className='border rounded-xl bg-[#1410290F] py-2.5 flex items-center px-2 justify-between col-span-1'>Set Featured 🔥 <span><ChevronDown /></span></button>
+                  <button className='border rounded-xl bg-[#1410290F] py-2.5 flex items-center px-2 justify-between col-span-1'>Sort: Featured 🔥 <span><ChevronDown /></span></button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-56">
                   <DropdownMenuLabel>My Account</DropdownMenuLabel>
@@ -62,65 +62,38 @@ export const FeaturedArtists = () => {
                       <DropdownMenuShortcut>⌘K</DropdownMenuShortcut>
                     </DropdownMenuItem>
                   </DropdownMenuGroup>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuGroup>
-                    <DropdownMenuItem>Team</DropdownMenuItem>
-                    <DropdownMenuSub>
-                      <DropdownMenuSubTrigger>Invite users</DropdownMenuSubTrigger>
-                      <DropdownMenuPortal>
-                        <DropdownMenuSubContent>
-                          <DropdownMenuItem>Email</DropdownMenuItem>
-                          <DropdownMenuItem>Message</DropdownMenuItem>
-                          <DropdownMenuSeparator />
-                          <DropdownMenuItem>More...</DropdownMenuItem>
-                        </DropdownMenuSubContent>
-                      </DropdownMenuPortal>
-                    </DropdownMenuSub>
-                    <DropdownMenuItem>
-                      New Team
-                      <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
-                    </DropdownMenuItem>
-                  </DropdownMenuGroup>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem>GitHub</DropdownMenuItem>
-                  <DropdownMenuItem>Support</DropdownMenuItem>
-                  <DropdownMenuItem disabled>API</DropdownMenuItem>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem>
-                    Log out
-                    <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
-                  </DropdownMenuItem>
+
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
-            <div className='flex flex-col items-center text-center'>
+            <div className='flex flex-col items-center text-center space-y-3'>
               <h3 className='text-4xl w-72 font-black -tracking-[1%] leading-[110%] font-monaCon'>Explore featured  Artists</h3>
               <p className='max-w-sm font-bold'>A curated marketplace of sounds, loops, and beats ready to sync with your NFT.</p>
             </div>
-            <div className='w-full grid grid-cols-7 gap-2 px-8 max-w-7xl'>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
             </div>
-            <div className='flex flex-col justify-center items-center gap-6'>
+            <div className='flex flex-col justify-center items-center gap-6 text-center'>
               <h3 className='text-[100px] font-black -tracking-[1%] leading-[110%] font-monaCon text-center'>Willie Taylor</h3>
               <button className='bg-black font-bold font-mona text-white rounded-xl py-[13px] px-[25px]'>Browse Artists</button>
             </div>
@@ -134,7 +107,7 @@ export const FeaturedArtists = () => {
               </div>
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <button className='border rounded-xl bg-[#1410290F] py-2.5 flex items-center px-2 justify-between col-span-1'>Set Featured 🔥 <span><ChevronDown /></span></button>
+                  <button className='border rounded-xl bg-[#1410290F] py-2.5 flex items-center px-2 justify-between col-span-1'>Sort: Featured 🔥 <span><ChevronDown /></span></button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-56">
                   <DropdownMenuLabel>My Account</DropdownMenuLabel>
@@ -157,65 +130,38 @@ export const FeaturedArtists = () => {
                       <DropdownMenuShortcut>⌘K</DropdownMenuShortcut>
                     </DropdownMenuItem>
                   </DropdownMenuGroup>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuGroup>
-                    <DropdownMenuItem>Team</DropdownMenuItem>
-                    <DropdownMenuSub>
-                      <DropdownMenuSubTrigger>Invite users</DropdownMenuSubTrigger>
-                      <DropdownMenuPortal>
-                        <DropdownMenuSubContent>
-                          <DropdownMenuItem>Email</DropdownMenuItem>
-                          <DropdownMenuItem>Message</DropdownMenuItem>
-                          <DropdownMenuSeparator />
-                          <DropdownMenuItem>More...</DropdownMenuItem>
-                        </DropdownMenuSubContent>
-                      </DropdownMenuPortal>
-                    </DropdownMenuSub>
-                    <DropdownMenuItem>
-                      New Team
-                      <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
-                    </DropdownMenuItem>
-                  </DropdownMenuGroup>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem>GitHub</DropdownMenuItem>
-                  <DropdownMenuItem>Support</DropdownMenuItem>
-                  <DropdownMenuItem disabled>API</DropdownMenuItem>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem>
-                    Log out
-                    <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
-                  </DropdownMenuItem>
+
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
-            <div className='flex flex-col items-center text-center'>
+            <div className='flex flex-col items-center text-center space-y-3'>
               <h3 className='text-4xl w-72 font-black -tracking-[1%] leading-[110%] font-monaCon'>Finance Your Crations</h3>
               <p className='max-w-sm font-bold'>SoundMoney rewards users daily in $BEZY and social tokens based on CLOUT and activity, using a quadratic formula to prioritize meaningful engagement.</p>
             </div>
-            <div className='w-full grid grid-cols-7 gap-2 px-8 max-w-7xl'>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
             </div>
-            <div className='flex flex-col justify-center items-center gap-6'>
+            <div className='flex flex-col justify-center items-center gap-6 text-center'>
               <h3 className='text-[100px] font-black -tracking-[1%] leading-[110%] font-monaCon'>Hip Hop Paintings</h3>
               <button className='bg-black font-bold font-mona text-white rounded-xl py-[13px] px-[25px]'>Browse Artists</button>
             </div>
@@ -229,7 +175,7 @@ export const FeaturedArtists = () => {
               </div>
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <button className='border rounded-xl bg-[#1410290F] py-2.5 flex items-center px-2 justify-between col-span-1'>Set Featured 🔥 <span><ChevronDown /></span></button>
+                  <button className='border rounded-xl bg-[#1410290F] py-2.5 flex items-center px-2 justify-between col-span-1'>Sort: Featured 🔥 <span><ChevronDown /></span></button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="w-56">
                   <DropdownMenuLabel>My Account</DropdownMenuLabel>
@@ -252,65 +198,38 @@ export const FeaturedArtists = () => {
                       <DropdownMenuShortcut>⌘K</DropdownMenuShortcut>
                     </DropdownMenuItem>
                   </DropdownMenuGroup>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuGroup>
-                    <DropdownMenuItem>Team</DropdownMenuItem>
-                    <DropdownMenuSub>
-                      <DropdownMenuSubTrigger>Invite users</DropdownMenuSubTrigger>
-                      <DropdownMenuPortal>
-                        <DropdownMenuSubContent>
-                          <DropdownMenuItem>Email</DropdownMenuItem>
-                          <DropdownMenuItem>Message</DropdownMenuItem>
-                          <DropdownMenuSeparator />
-                          <DropdownMenuItem>More...</DropdownMenuItem>
-                        </DropdownMenuSubContent>
-                      </DropdownMenuPortal>
-                    </DropdownMenuSub>
-                    <DropdownMenuItem>
-                      New Team
-                      <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
-                    </DropdownMenuItem>
-                  </DropdownMenuGroup>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem>GitHub</DropdownMenuItem>
-                  <DropdownMenuItem>Support</DropdownMenuItem>
-                  <DropdownMenuItem disabled>API</DropdownMenuItem>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem>
-                    Log out
-                    <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
-                  </DropdownMenuItem>
+
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
-            <div className='flex flex-col items-center text-center'>
+            <div className='flex flex-col items-center text-center space-y-3'>
               <h3 className='text-4xl w-72 font-black -tracking-[1%] leading-[110%] font-monaCon'>Real Creators. <br /> Real Imapct.</h3>
               <p className='max-w-sm font-bold'>Join a global community of artists using SoundMoney to transform how they engage fans.</p>
             </div>
-            <div className='w-full grid grid-cols-7 gap-2 px-8 max-w-7xl'>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
-              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px]  border-[#FD7125] overflow-hidden'>
+              <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
               </div>
             </div>
-            <div className='flex flex-col justify-center items-center gap-6'>
+            <div className='flex flex-col justify-center items-center gap-6 text-center'>
               <h3 className='text-[100px] font-black -tracking-[1%] leading-[110%] font-monaCon'>Doble Tempo</h3>
               <button className='bg-black font-bold font-mona text-white rounded-xl py-[13px] px-[25px]'>Browse Creators</button>
             </div>
