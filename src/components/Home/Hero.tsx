@@ -1,6 +1,5 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import { ArrowRight } from 'lucide-react';
 
 
 export function Hero() {
@@ -18,6 +17,8 @@ export function Hero() {
                 <></>
                 <></>
             </div>
+            <div></div>
+            <div></div>
         </div>
     )
 };
