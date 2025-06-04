@@ -98,11 +98,20 @@ const config: Config = {
   				to: {
   					height: '0'
   				}
-  			}
+  			},
+			'float': {
+          '0%': { transform: 'translate(0, 0)', opacity: '0' },
+          '25%': { transform: 'translate(50px, -60px)', opacity: '1' },
+          '50%': { transform: 'translate(100px, -20px)', opacity: '0.6' },
+          '75%': { transform: 'translate(-60px, 40px)', opacity: '1' },
+          '100%': { transform: 'translate(0, 0)', opacity: '0' },
+        },
+
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
-  			'accordion-up': 'accordion-up 0.2s ease-out'
+  			'accordion-up': 'accordion-up 0.2s ease-out',
+			'float': 'float 10s ease-in-out infinite',
   		}
   	}
   },

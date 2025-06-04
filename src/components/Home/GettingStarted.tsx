@@ -4,7 +4,9 @@ import { ArrowRight } from 'lucide-react';
 export const GettingStarted = () => {
     return (
         <div className='py-12 px-4'>
-            <h3 className='text-4xl text-center font-black -tracking-[1%] leading-[110%] font-monaCon pb-8'>Getting Started is easy</h3>
+            <h3 className='text-4xl md:text-[64px] text-center font-black -tracking-[1%] leading-[110%] font-monaCon pb-8'><span className="relative inline-block before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:z-0 before:bg-[url('/images/hero_v.svg')] before:bg-contain before:bg-no-repeat before:bg-center before:scale-x-[1.2] before:scale-y-105">
+                <span className="relative z-10 text-black">Getting Started</span>
+              </span> is easy</h3>
             <div className='max-w-5xl mx-auto space-y-6'>
                 <div className='bg-white border rounded-xl py-4 md:items-center flex flex-col md:flex-row justify-between p-4 gap-y-8'>
                     <div className='flex gap-4 items-center'>

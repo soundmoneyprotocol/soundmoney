@@ -67,30 +67,32 @@ export const FeaturedArtists = () => {
               </DropdownMenu>
             </div>
             <div className='flex flex-col items-center text-center space-y-3'>
-              <h3 className='text-4xl w-72 font-black -tracking-[1%] leading-[110%] font-monaCon'>Explore featured  Artists</h3>
+              <h3 className='text-4xl md:text-[64px] font-black -tracking-[1%] leading-[110%] font-monaCon'>Explore featured <br/>  <span className="relative inline-block before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:z-0 before:bg-[url('/images/black_vector.svg')] before:bg-contain before:bg-no-repeat before:bg-center before:scale-x-110 before:scale-y-[2.2]">
+                <span className="relative z-10 text-white">Artists</span>
+              </span></h3>
               <p className='max-w-sm font-bold'>A curated marketplace of sounds, loops, and beats ready to sync with your NFT.</p>
             </div>
-            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar'>
+            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar mx-auto'>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/art-1.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/artist-1.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/art-3.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/art-2.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/art-4.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/art-5.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/art-6.jpg' className='w-full object-cover h-full' />
               </div>
             </div>
             <div className='flex flex-col justify-center items-center gap-6 text-center'>
@@ -135,30 +137,32 @@ export const FeaturedArtists = () => {
               </DropdownMenu>
             </div>
             <div className='flex flex-col items-center text-center space-y-3'>
-              <h3 className='text-4xl w-72 font-black -tracking-[1%] leading-[110%] font-monaCon'>Finance Your Crations</h3>
+              <h3 className='text-4xl md:text-[64px] font-black -tracking-[1%] leading-[110%] font-monaCon'><span className="relative inline-block before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:z-0 before:bg-[url('/images/black_vector.svg')] before:bg-contain before:bg-no-repeat before:bg-center before:scale-x-110 before:scale-y-[1.8]">
+                <span className="relative z-10 text-white">Finance</span>
+              </span> <br/> Your Crations</h3>
               <p className='max-w-sm font-bold'>SoundMoney rewards users daily in $BEZY and social tokens based on CLOUT and activity, using a quadratic formula to prioritize meaningful engagement.</p>
             </div>
-            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar'>
+            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar mx-auto'>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/artist-1.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/artist-3.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/art-4.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/artist-4.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/artist-5.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/artist-6.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/artist-7.jpg' className='w-full object-cover h-full' />
               </div>
             </div>
             <div className='flex flex-col justify-center items-center gap-6 text-center'>
@@ -203,30 +207,32 @@ export const FeaturedArtists = () => {
               </DropdownMenu>
             </div>
             <div className='flex flex-col items-center text-center space-y-3'>
-              <h3 className='text-4xl w-72 font-black -tracking-[1%] leading-[110%] font-monaCon'>Real Creators. <br /> Real Imapct.</h3>
+              <h3 className='text-4xl md:text-[64px] font-black -tracking-[1%] leading-[110%] font-monaCon'>Real Creators. <br /> <span className="relative inline-block before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:z-0 before:bg-[url('/images/black_vector.svg')] before:bg-contain before:bg-no-repeat before:bg-center before:scale-x-110 before:scale-y-110">
+                <span className="relative z-10 text-white">Real Impact</span>
+              </span></h3>
               <p className='max-w-sm font-bold'>Join a global community of artists using SoundMoney to transform how they engage fans.</p>
             </div>
-            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar'>
+            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar mx-auto'>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/labels-2.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/labels-3.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/labels-4.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/labels-5.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/labels-6.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/artist-5.jpg' className='w-full object-cover h-full' />
               </div>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
-                <img src='https://images.unsplash.com/photo-1721323960623-fdae1ec6c644?q=80&w=1922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className='w-full object-cover' />
+                <img src='/images/artists/art-2.jpg' className='w-full object-cover h-full' />
               </div>
             </div>
             <div className='flex flex-col justify-center items-center gap-6 text-center'>

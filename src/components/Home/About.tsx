@@ -1,5 +1,5 @@
 import { ArrowRight } from 'lucide-react'
-import React from 'react'   
+import React from 'react'
 
 type Feature = {
     img: string;
@@ -45,10 +45,16 @@ export const About = () => {
         <div className='bg-[linear-gradient(360deg,_rgba(175,179,181,0)_44.91%,_#FD7125_100%)] relative z-50 backdrop-blur-[95px] h-full overflow-y-hidden pb-40'>
             <div className='backdrop-blur-[95px]'>
                 <div className='backdrop-blur-[1005px] top-[200px] Z-10 absolute inset-0'>
-                    <img className='backdrop-blur-[95px] w-[150vw] h-[150vh] rotate-[360deg]' src='/images/abt-grad.svg' alt=''/>
+                    <img className='backdrop-blur-[95px] w-[150vw] h-[150vh] rotate-[360deg]' src='/images/abt-grad.svg' alt='' />
                 </div>
                 <div className='bg-white rounded-2xl mx-4 md:mx-12 p-2 md:p-8 relative z-50'>
-                    <h3 className='md:text-[64px] text-4xl font-black -tracking-[1%] leading-[110%] font-monaCon text-center md:text-left'><span className='relative z-10 text-white'>Soundmoney <img className='absolute top-3 right-2 -z-10 scale-105' src="/images/black_vector.svg" alt="" /></span> is a decentralised multimedia protocol where artists and creators take back ownership of their content and data while fans earn by what they love.</h3>
+                    <h3 className="md:text-[64px] text-4xl font-black -tracking-[1%] leading-[110%] font-monaCon text-center md:text-left">
+                        <span className="relative inline-block before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:-z-10 before:bg-[url('/images/black_vector.svg')] before:bg-contain before:bg-no-repeat before:bg-center before:scale-x-105 before:scale-y-105">
+                            <span className="relative z-10 text-white">Soundmoney   </span>
+                        </span>
+                        &nbsp; &nbsp;is a decentralised multimedia protocol where artists and creators take back ownership of their content and data while fans earn by what they love.
+                    </h3>
+
                     <div className='max-w-sm md:ml-auto mt-16 space-y-5 hidden md:'>
                         <p className='text-[#000000CC]'>We&apos;re not just an app—we&apos;re building an ecosystem. Blockchain, Token, DEX, Wallet, Live Streams, Social Tokens, and a Creator Crowdfunding—all under one roof.</p>
                         <button className='flex items-center gap-x-2 border border-black rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D] bg-white font-bold'>View Ecosystem Deck <ArrowRight /></button>
@@ -59,7 +65,7 @@ export const About = () => {
                                 key={index}
                                 className=" w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] max-w-md bg-[#EFF3F5] p-6 rounded-xl shadow-sm transition-shadow space-y-4"
                             >
-                                <img className='w-10' src={`/images/icons/${feature.img}`}/>
+                                <img className='w-10' src={`/images/icons/${feature.img}`} />
                                 <div className='space-y-2'>
                                     <h3 className="font-semibold text-lg text-gray-900">
                                         {feature.title}
