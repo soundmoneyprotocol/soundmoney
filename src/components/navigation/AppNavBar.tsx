@@ -35,12 +35,12 @@ export const AppNavBar = () => {
 
       <div className="flex md:gap-x-4 gap-x-2 items-center">
         <div className="hidden md:flex gap-x-5 items-center">
-          <button className="flex items-center gap-x-2 border border-black rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
+          <Link href="https://soundmoney.social" className="flex items-center gap-x-2 border border-white rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
             Buy Bezy <ArrowRight />
-          </button>
-          <button className="bg-black text-white rounded-xl py-[13px] px-[25px]">
+          </Link>
+          <Link href='https://soundmoney.social/' className="bg-white text-black rounded-xl py-[13px] px-[25px]">
             Soundmoney.social App
-          </button>
+          </Link>
         </div>
         <button onClick={() => setIsOpen(true)} className="w-[68px] h-[26px] flex flex-col justify-between">
           <span className="w-full bg-black border-b-2 border-black" />
@@ -79,12 +79,12 @@ export const AppNavBar = () => {
               </div>
               <div className="flex md:gap-x-4 gap-x-2 items-center">
                 <div className="hidden md:flex gap-x-5 items-center">
-                  <button className="flex items-center gap-x-2 border border-white rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
+                  <Link href="https://soundmoney.social" className="flex items-center gap-x-2 border border-white rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
                     Buy Bezy <ArrowRight />
-                  </button>
-                  <button className="bg-white text-black rounded-xl py-[13px] px-[25px]">
+                  </Link>
+                  <Link href='https://soundmoney.social/' className="bg-white text-black rounded-xl py-[13px] px-[25px]">
                     Soundmoney.social App
-                  </button>
+                  </Link>
                 </div>
                 <button onClick={() => setIsOpen(false)}>
                   <X className="h-12 w-12" />
@@ -166,12 +166,12 @@ export const AppNavBar = () => {
             </div>
             <div className="w-full border-b border-dotted border-[#EFF3F5] text-white h-16" />
             <div className="flex flex-col justify-center gap-x-5 items-center w-72 mx-auto mt-8 space-y-4">
-              <button className="flex justify-center items-center gap-x-2 border border-white rounded-xl py-5 w-full shadow-[0px_1px_2px_0px_#1018280D]">
+              <Link href="https://soundmoney.social" className="flex items-center gap-x-2 border border-white rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
                 Buy Bezy <ArrowRight />
-              </button>
-              <button className="bg-white text-black rounded-xl w-full py-5">
+              </Link>
+              <Link href='https://soundmoney.social/' className="bg-white text-black rounded-xl py-[13px] px-[25px]">
                 Soundmoney.social App
-              </button>
+              </Link>
             </div>
           </motion.div>
         )}
