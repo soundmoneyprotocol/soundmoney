@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import Marquee from 'react-fast-marquee';
+import { MarqueeImages } from '../ui/MarqueeImages';
 
 
 export function Hero() {
@@ -56,28 +56,16 @@ export function Hero() {
             </div>
             <div className='w-full space-y-16'>
                 {[0, 1, 2, 3].map((index) => (
-                    <div key={index} className='relative w-full'>
-                        <div className='w-full border-t border-dotted border-black' />
-                        <div className='absolute inset-x-0 -top-[37.5px]'>
-                            <Marquee
-                                speed={speeds[index]}
-                                direction={index % 2 === 0 ? 'left' : 'right'}
-                                gradient={false}
-                            >
-                                {lineImages[index].map((img, i) => (
-                                    <img
-                                        key={`${index}-${i}`}
-                                        src={img}
-                                        alt={`Profile ${i + 1}`}
-                                        className={`w-[75px] h-[75px] rounded-full object-cover ${spacings[index]}`}
-                                    />
-                                ))}
-                            </Marquee>
-                        </div>
-                    </div>
+                    <MarqueeImages
+                        key={index}
+                        images={lineImages[index]}
+                        speed={speeds[index]}
+                        direction={index % 2 === 0 ? 'left' : 'right'}
+                        spacing={spacings[index]}
+                        imageSize={75}
+                    />
                 ))}
             </div>
-            <div></div>
         </div>
     )
 };
