@@ -10,7 +10,7 @@ export const Protocols = () => {
   const blobs = Array.from({ length: 6 });
 
   return (
-    <div className='relative overflow-hidden'>
+    <div className='relative overflow-hidden bg-[linear-gradient(0deg,_rgba(175,_179,_181,_0.6)_44.91%,_#48EA63_100%)]'>
       <div className='flex flex-col lg:flex-row lg:justify-between md:px-12 py-20 px-4'>
         <h3 className='text-[34px] md:text-6xl font-black md:-tracking-[1%] -tracking-[2%] leading-tight md:leading-[64px] font-monaCon relative z-20 text-center lg:text-left'>Powering the <br className='hidden md:block' />Creator Economy:
           <br />

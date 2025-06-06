@@ -44,7 +44,7 @@ const features: Feature[] = [
 
 export const About = () => {
 
-// Different image sets for each line
+    // Different image sets for each line
     const lineImages = [
         // Artists
         [
@@ -76,10 +76,10 @@ export const About = () => {
     const speeds = [10, 15, 12, 20];
 
     return (
-        <div className='bg-[linear-gradient(360deg,_rgba(175,179,181,0)_44.91%,_#FD7125_100%)] relative z-50 backdrop-blur-[95px] h-full overflow-y-hidden pb-40'>
-            <div className='backdrop-blur-[95px]'>
-                <div className='backdrop-blur-[1005px] top-[200px] Z-10 absolute inset-0'>
-                    <img className='backdrop-blur-[95px] w-[150vw] h-[150vh] rotate-[360deg]' src='/images/abt-grad.svg' alt='' />
+        <div className='bg-[linear-gradient(360deg,_rgba(175,179,181,0)_44.91%,_#FD7125_100%)] relative backdrop-blur-[95px] h-full overflow-y-hidden pb-40'>
+            {/* <div className='backdrop-blur-[95px]'> */}
+                <div className='backdrop-blur-[1005px] top-[200px] z-10 absolute inset-0'>
+                    <img className='backdrop-blur-[95px] w-[150vw] min-h-[150vh] lg:min-h-[120vh] rotate-[360deg]' src='/images/abt-grad.svg' alt='' />
                 </div>
                 <div className='bg-white rounded-2xl mx-4 md:mx-12 py-8 md:py-16 relative z-50'>
                     <h3 className="md:text-[64px] text-4xl font-black -tracking-[1%] leading-[110%] font-monaCon text-center md:text-left px-8 md:px-16">
@@ -94,17 +94,17 @@ export const About = () => {
                         <button className='flex items-center gap-x-2 border border-black rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D] bg-white font-bold'>View Ecosystem Deck <ArrowRight /></button>
                     </div>
                     <div className='w-full space-y-16 py-24'>
-                                    {[0, 1, 2, 3].map((index) => (
-                                        <MarqueeImages
-                                            key={index}
-                                            images={lineImages[index]}
-                                            speed={speeds[index]}
-                                            direction={index % 2 === 0 ? 'left' : 'right'}
-                                            spacing={spacings[index]}
-                                            imageSize={75}
-                                        />
-                                    ))}
-                                </div>
+                        {[0, 1, 2, 3].map((index) => (
+                            <MarqueeImages
+                                key={index}
+                                images={lineImages[index]}
+                                speed={speeds[index]}
+                                direction={index % 2 === 0 ? 'left' : 'right'}
+                                spacing={spacings[index]}
+                                imageSize={75}
+                            />
+                        ))}
+                    </div>
                     <div className="max-w-6xl mx-auto px-4 flex flex-wrap justify-center gap-6 mt-16 px-8 md:px-16">
                         {features.map((feature, index) => (
                             <div
@@ -125,7 +125,8 @@ export const About = () => {
                     </div>
 
                 </div>
-            </div>
+            {/* </div> */}
+            <div className='absolute bottom-0 inset-x-0 bg-[linear-gradient(180deg,_rgba(0,0,0,0)_10%,_rgba(175,_179,_181,_0.6)_44.91%,_#48EA63_100%)] h-[40vh] z-40'></div>
         </div>
     )
 }

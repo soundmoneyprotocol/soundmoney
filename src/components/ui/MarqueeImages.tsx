@@ -19,19 +19,24 @@ export function MarqueeImages({
     return (
         <div className='relative w-full'>
             <div className='w-full border-t border-dotted border-black' />
-            <div className='absolute inset-x-0 -top-[37.5px]'>
+            <div className='absolute inset-x-0' style={{ top: -(imageSize / 2) }}>
                 <Marquee
                     speed={speed}
                     direction={direction}
                     gradient={false}
                 >
                     {images.map((img, i) => (
-                        <img
-                            key={i}
-                            src={img}
-                            alt={`Profile ${i + 1}`}
-                            className={`w-[${imageSize}px] h-[${imageSize}px] rounded-full object-cover ${spacing}`}
-                        />
+                        <div key={i} className={spacing}>
+                            <img
+                                src={img}
+                                alt={`Profile ${i + 1}`}
+                                style={{
+                                    width: `${imageSize}px`,
+                                    height: `${imageSize}px`,
+                                }}
+                                className='rounded-full object-cover'
+                            />
+                        </div>
                     ))}
                 </Marquee>
             </div>

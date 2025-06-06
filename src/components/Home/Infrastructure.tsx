@@ -5,6 +5,7 @@ import { FAQs } from '@/components/Home/FAQs';
 
 export const Infrastructure = () => {
     return (
+        <div className='bg-[#AFB3B599]'>
         <div className='px-4 md:px-12 py-20 mx-4 md:mx-12 rounded-3xl shadow-2xl bg-white space-y-12 '>
             <h3 className='text-[34px] md:text-[64px] text-center font-bold -tracking-[1%] leading-[110%] font-monaCon relative'>Built for Web3 Creators. <br /> Backed by Real<br />
                 <span className="relative inline-block before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:z-0 before:bg-[url('/images/black_vector.svg')] before:bg-contain before:bg-no-repeat before:bg-center before:scale-x-105 before:scale-y-105">
@@ -48,6 +49,8 @@ export const Infrastructure = () => {
             </div>
             <FAQs />
             <div></div>
+        </div>
+
         </div>
     )
 }

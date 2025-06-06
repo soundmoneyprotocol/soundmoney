@@ -19,7 +19,7 @@ import {
 
 export const FeaturedArtists = () => {
   return (
-    <div>
+    <div className='bg-[#AFB3B599] py-20'>
       <div>
         <Tabs defaultValue="artists" className="">
           <TabsList className='bg-[#EFF3F5] w-fit mx-auto rounded-full flex justify-center p-1 h-auto'>
