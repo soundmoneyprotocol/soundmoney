@@ -70,7 +70,7 @@ export const FAQs = () => {
                 <div className='space-y-4 lg:hidden flex flex-col just text-center items-center w-full mt-8'>
                     <p className='font-bold'>Want to partner collab
                         <br />or invest with Soundmoney</p>
-                    <button className='flex items-center gap-x-2 border border-black rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D] bg-white font-bold'>Learn More <ArrowRight /></button>
+                    <button className='flex items-center gap-x-2 border border-black rounded-xl py-[13px] px-[25px] shadow-md bg-white font-bold'>Learn More <ArrowRight /></button>
                 </div>
             </div>
 

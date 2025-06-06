@@ -86,7 +86,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${druk.variable} ${gilroy.variable} ${mont.className} ${mona.className} ${monaCon.variable} bg-[#cfd1d3]`}
+      className={`${druk.variable} ${gilroy.variable} ${mont.className} ${mona.className} ${monaCon.variable} bg-[#AFB3B599]`}
     >
       <body>
         <MainLayout>{children}</MainLayout>

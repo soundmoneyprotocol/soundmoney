@@ -19,7 +19,7 @@ import {
 
 export const FeaturedArtists = () => {
   return (
-    <div>
+    <div className='bg-[#AFB3B599] py-20'>
       <div>
         <Tabs defaultValue="artists" className="">
           <TabsList className='bg-[#EFF3F5] w-fit mx-auto rounded-full flex justify-center p-1 h-auto'>
@@ -72,7 +72,7 @@ export const FeaturedArtists = () => {
               </span></h3>
               <p className='max-w-sm font-bold'>A curated marketplace of sounds, loops, and beats ready to sync with your NFT.</p>
             </div>
-            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar'>
+            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar mx-auto'>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='/images/artists/art-1.jpg' className='w-full object-cover h-full' />
               </div>
@@ -142,7 +142,7 @@ export const FeaturedArtists = () => {
               </span> <br/> Your Crations</h3>
               <p className='max-w-sm font-bold'>SoundMoney rewards users daily in $BEZY and social tokens based on CLOUT and activity, using a quadratic formula to prioritize meaningful engagement.</p>
             </div>
-            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar'>
+            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar mx-auto'>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='/images/artists/artist-1.jpg' className='w-full object-cover h-full' />
               </div>
@@ -212,7 +212,7 @@ export const FeaturedArtists = () => {
               </span></h3>
               <p className='max-w-sm font-bold'>Join a global community of artists using SoundMoney to transform how they engage fans.</p>
             </div>
-            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar'>
+            <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar mx-auto'>
               <div className='col-span-1 rounded-full aspect-square hover:scale-110 duration-300 hover:border-[4px] border-[#FD7125] overflow-hidden flex-shrink-0 w-[200px] md:w-auto'>
                 <img src='/images/artists/labels-2.jpg' className='w-full object-cover h-full' />
               </div>
