@@ -35,7 +35,7 @@ export const AppNavBar = () => {
 
       <div className="flex md:gap-x-4 gap-x-2 items-center">
         <div className="hidden md:flex gap-x-5 items-center">
-          <Link href="https://soundmoney.social" className="flex items-center gap-x-2 border border-black rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
+          <Link href="https://mew.gg/pool/0x67a575c850d4d72d9c66c43ba25b15e8f5db2037" target='_blank' className="flex items-center gap-x-2 border border-black rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
             Buy Bezy <ArrowRight />
           </Link>
           <Link href='https://soundmoney.social/' className="bg-white text-black rounded-xl py-[13px] px-[25px]">
@@ -79,7 +79,7 @@ export const AppNavBar = () => {
               </div>
               <div className="flex md:gap-x-4 gap-x-2 items-center">
                 <div className="hidden md:flex gap-x-5 items-center">
-                  <Link href="https://soundmoney.social" className="flex items-center gap-x-2 border border-white rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
+                  <Link href="https://mew.gg/pool/0x67a575c850d4d72d9c66c43ba25b15e8f5db2037" target='_blank' className="flex items-center gap-x-2 border border-white rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
                     Buy Bezy <ArrowRight />
                   </Link>
                   <Link href='https://soundmoney.social/' className="bg-white text-black rounded-xl py-[13px] px-[25px]">
@@ -166,7 +166,7 @@ export const AppNavBar = () => {
             </div>
             <div className="w-full border-b border-dotted border-[#EFF3F5] text-white h-16" />
             <div className="flex flex-col justify-center gap-x-5 items-center w-72 mx-auto mt-8 space-y-4">
-              <Link href="https://soundmoney.social" className="flex items-center gap-x-2 border border-white rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
+              <Link href="https://mew.gg/pool/0x67a575c850d4d72d9c66c43ba25b15e8f5db2037" target='_blank' className="flex items-center gap-x-2 border border-white rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D]">
                 Buy Bezy <ArrowRight />
               </Link>
               <Link href='https://soundmoney.social/' className="bg-white text-black rounded-xl py-[13px] px-[25px]">
