@@ -31,9 +31,10 @@ export const Footer = () => {
                     <div className='text-white flex'>
                         <p className='text-[#CFD1D3] text-[10px]'>Built with</p>
                         <div className='flex-col pl-4 flex gap-y-2 text-xs font-[400]'>
+                            <Link href='#'>Saga</Link>
                             <Link href='#'>Livepeer</Link>
                             <Link href='#'>Superfluid Labs</Link>
-                            <Link href='#'>Saga</Link>
+                            <Link href='#'>Ritual AI</Link>
                         </div>
                     </div>
                     <div className='text-white flex text-[9px]'>
