@@ -139,7 +139,7 @@ export const FeaturedArtists = () => {
             <div className='flex flex-col items-center text-center space-y-3'>
               <h3 className='text-4xl md:text-[64px] font-black -tracking-[1%] leading-[110%] font-monaCon'><span className="relative inline-block before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:z-0 before:bg-[url('/images/black_vector.svg')] before:bg-contain before:bg-no-repeat before:bg-center before:scale-x-110 before:scale-y-[1.8]">
                 <span className="relative z-10 text-white">Finance</span>
-              </span> <br/> Your Crations</h3>
+              </span> <br/> Your Creations</h3>
               <p className='max-w-sm font-bold'>SoundMoney rewards users daily in $BEZY and social tokens based on CLOUT and activity, using a quadratic formula to prioritize meaningful engagement.</p>
             </div>
             <div className='w-full md:grid md:grid-cols-7 gap-2 px-8 max-w-7xl overflow-x-auto whitespace-nowrap grid-cols-none flex py-8 scrollbar mx-auto'>

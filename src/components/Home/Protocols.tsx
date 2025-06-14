@@ -23,44 +23,43 @@ export const Protocols = () => {
             <AccordionItem value="item-1" className='bg-[#0000000D] rounded-2xl px-4'>
               <AccordionTrigger className='text-2xl font-bold'>Own & Monetize Your Music</AccordionTrigger>
               <AccordionContent>
-                Yes. It adheres to the WAI-ARIA design pattern.
+                Yes. You own your creations and YOU should retain the majority of the revenue.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2" className='bg-[#0000000D] rounded-2xl px-4'>
               <AccordionTrigger className='text-2xl font-bold'> NFT Drops for Music & Art</AccordionTrigger>
               <AccordionContent>
-                Yes. It comes with default styles that matches the other
-                components&apos; aesthetic.
+                Yes. We provide a seamless way to create and manage NFT drops for your music and art, allowing you to connect with your fans in new ways.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" className='bg-[#0000000D] rounded-2xl px-4'>
-              <AccordionTrigger className='text-2xl font-bold'> Live Video Streaming & VOD </AccordionTrigger>
+              <AccordionTrigger className='text-2xl font-bold'> Live AI Video Streaming & VOD </AccordionTrigger>
               <AccordionContent>
-                Yes. It&apos;s animated by default, but you can disable it if you prefer.
+                Yes. You can stream your music or creative content to your audience in real-time with AI-powered video, enhancing the fan experience.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4" className='bg-[#0000000D] rounded-2xl px-4'>
               <AccordionTrigger className='text-2xl font-bold'> Launch Your Social Token </AccordionTrigger>
               <AccordionContent>
-                Yes. It&apos;s animated by default, but you can disable it if you prefer.
+                Yes. You can launch your own social token and use it to interact with your audience and reward them for their support.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5" className='bg-[#0000000D] rounded-2xl px-4'>
               <AccordionTrigger className='text-2xl font-bold'>Real-Time Fan Interactions</AccordionTrigger>
               <AccordionContent>
-                Yes. It&apos;s animated by default, but you can disable it if you prefer.
+                Yes. You can interact with your fans in real-time through live chats, comments, and more.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-6" className='bg-[#0000000D] rounded-2xl px-4'>
               <AccordionTrigger className='text-2xl font-bold'>Artist Support Foundation</AccordionTrigger>
               <AccordionContent>
-                Yes. It&apos;s animated by default, but you can disable it if you prefer.
+                Yes. You can support your artists by providing them with direct support through BEZY C.A.R.E.S foundation.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-7" className='bg-[#0000000D] rounded-2xl px-4'>
               <AccordionTrigger className='text-2xl font-bold'>Digital Art Showcases</AccordionTrigger>
               <AccordionContent>
-                Yes. It&apos;s animated by default, but you can disable it if you prefer.
+                Yes. You can collab & showcase your digital art in a visually stunning way, allowing fans to appreciate and engage with your work.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
