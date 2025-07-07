@@ -54,7 +54,7 @@ export const AppNavBar = () => {
         {isOpen && (
           <motion.div
             key="desktop-menu"
-            className="fixed top-0 left-0 right-0 z-50 bg-black text-white h-[60vh] shadow-lg hidden md:block overflow-y-auto"
+            className="fixed top-0 left-0 right-0 z-50 bg-black text-white h-[60vh] shadow-xl hidden md:block overflow-y-auto"
             variants={menuVariants}
             initial="hidden"
             animate="visible"
