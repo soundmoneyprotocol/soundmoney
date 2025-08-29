@@ -97,6 +97,8 @@ export const AppNavBar = () => {
               <div className="flex justify-center items-center gap-x-8 text-xl py-1">
                 <Link href="/" className="text-[#FD7125] font-bold">Home</Link>
                 <p>/</p>
+                <Link href="/audience">Audience</Link>
+                <p>/</p>
                 <Link href="/">Earn</Link>
                 <p>/</p>
                 <Link href="/">$BEZY</Link>
@@ -154,6 +156,7 @@ export const AppNavBar = () => {
             <div className="w-full border-b border-dotted border-[#EFF3F5] text-white py-8 flex items-center justify-center">
               <div className="flex flex-col justify-center items-center text-xl gap-y-4">
                 <Link href="/" className="text-[#FD7125] font-bold">/ Home</Link>
+                <Link href="/audience">/ Audience</Link>
                 <Link href="/">/ About</Link>
                 <Link href="/">/ Blog</Link>
                 <Link href="/">/ Press</Link>
