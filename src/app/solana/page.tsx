@@ -3,12 +3,12 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Saga = () => {
+const Solana = () => {
   return (
     <>
       <div className="flex items-center justify-center min-h-screen">
         <h2 className="textGradient md:text-7xl text-4xl font-gilroy text-center font-bold leading-relaxed">
-          Saga
+          Solana
         </h2>
         <div className="mt-8 grid md:grid-cols-3 gap-6 pb-8">
           <a
@@ -23,4 +23,4 @@ const Saga = () => {
   );
 };
 
-export default Saga;
+export default Solana;
