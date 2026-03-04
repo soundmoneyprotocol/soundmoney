@@ -60,9 +60,6 @@ export const Footer = () => {
             <button className="bg-black border font-bold text-sm md:text-base font-mona text-white rounded-xl py-[13px] px-2 md:px-[20px]">
               Browse Creators
             </button>
-            <button className="bg-[#FD7125]  font-bold text-sm md:text-base font-mona rounded-xl py-[13px] px-[20px]">
-              Soundmoney.social App
-            </button>
           </div>
           <div className="gap-4 md:flex hidden">
             <Link
