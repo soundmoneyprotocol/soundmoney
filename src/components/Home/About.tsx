@@ -76,7 +76,7 @@ export const About = () => {
     const speeds = [10, 15, 12, 20];
 
     return (
-        <div className='bg-[linear-gradient(360deg,_rgba(175,179,181,0)_44.91%,_#FD7125_100%)] relative backdrop-blur-[95px] h-full overflow-y-hidden pb-40'>
+        <div className='bg-[linear-gradient(360deg,_rgba(175,179,181,0)_44.91%,_#FD7125_100%)] relative backdrop-blur-[95px] h-full overflow-y-hidden py-40'>
             {/* <div className='backdrop-blur-[95px]'> */}
                 <div className='backdrop-blur-[1005px] top-[200px] z-10 absolute inset-0'>
                     <img className='backdrop-blur-[95px] w-[150vw] min-h-[150vh] lg:min-h-[120vh] rotate-[360deg]' src='/images/abt-grad.svg' alt='' />

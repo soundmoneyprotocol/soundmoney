@@ -39,7 +39,7 @@ export function Hero() {
     return (
         <div id='hero' className='min-h-screen gap-y-40 flex flex-col md:justify-center md:items-center h-screen md:h-[120vh] bg-[linear-gradient(180deg,_rgba(175,179,181,0.6)_42.73%,_#FD7125_100%)]'>
 
-            <div className='px-4 max-w-4xl mx-auto text-center flex flex-col items-center gap-y-8 pt-'>
+            <div className='px-4 max-w-4xl mx-auto text-center flex flex-col items-center gap-y-8 pt-24 lg:pt-40'>
                 <h1 className='md:text-[100px] text-[52px] font-black -tracking-[1%] leading-[110%] font-monaCon'>
                     <span className="relative inline-block before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:z-0 before:bg-[url('/images/hero_v.svg')] before:bg-contain before:bg-no-repeat before:bg-center before:scale-x-105 before:scale-y-105">
                         <span className="relative z-10 text-black">Enabling</span>
