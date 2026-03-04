@@ -42,8 +42,8 @@ export function Hero() {
             <div className='px-4 max-w-4xl mx-auto text-center flex flex-col items-center gap-y-8 pt-'>
                 <h1 className='md:text-[100px] text-[52px] font-black -tracking-[1%] leading-[110%] font-monaCon'>
                     <span className="relative inline-block before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:z-0 before:bg-[url('/images/hero_v.svg')] before:bg-contain before:bg-no-repeat before:bg-center before:scale-x-105 before:scale-y-105">
-                        <span className="relative z-10 text-black">Empowering</span>
-                    </span> Creators in the Web2.5 Era
+                        <span className="relative z-10 text-black">Enabling</span>
+                    </span> Stable Payments in the Streaming Era
                 </h1>
                 <p className='font-bold text-balance text-lg -tracking-[1%] leading-[143%] '>SoundMoney Protocol is a creator-first ecosystem built on blockchain—powering music, video, art, and fan engagement without intermediaries.</p>
                 <div className=' flex justify-center gap-x-4'>
