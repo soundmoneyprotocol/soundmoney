@@ -45,7 +45,7 @@ export function Hero() {
                         <span className="relative z-10 text-black">Enabling</span>
                     </span> Stable Payments in the Streaming Era
                 </h1>
-                <p className='font-bold text-balance text-lg -tracking-[1%] leading-[143%] '>SoundMoney Protocol is a creator-first ecosystem built on blockchain—powering music, video, art, and fan engagement without intermediaries.</p>
+                <p className='font-bold text-balance text-lg -tracking-[1%] leading-[143%] '>SoundMoney Protocol is a cross chain economy that allows streaming payments across ecosystems</p>
                 <div className=' flex justify-center gap-x-4'>
                     <button className='bg-black text-white rounded-xl py-[13px] px-[25px] font-bold'>Get Started</button>
                     <button className='flex items-center gap-x-2 font-bold rounded-xl py-[13px] px-[25px] shadow-[0px_1px_2px_0px_#1018280D] bg-white'>Learn More <ArrowRight /></button>
