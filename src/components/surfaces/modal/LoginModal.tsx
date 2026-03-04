@@ -87,8 +87,7 @@ export const LoginModal = () => {
           <div className='w-1/2'>
             <h3 className='font-semibold mt-4 text-xl'>Share the love</h3>
             <p className='text-sm mt-6 mb-5'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              facere delectus eveniet voluptate adipisci voluptates ut?
+              
             </p>
             <div>
               <div className='flex flex-col gap-y-1 mb-4'>
