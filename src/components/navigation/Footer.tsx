@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
-import { MoveUp, Facebook, Linkedin, Instagram } from 'lucide-react';
+import { MoveUp, Facebook, Linkedin, Instagram, MessageCircle, Twitter } from 'lucide-react';
 import { useLenis } from 'lenis/react';
 
 export const Footer = () => {
@@ -64,6 +64,14 @@ export const Footer = () => {
           <div className="gap-4 md:flex hidden">
             <Link
               className="w-6 h-6 p-1 rounded-full bg-white flex justify-center items-center"
+              href="https://x.com/soundmoneyxyz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Twitter size={16} />
+            </Link>
+            <Link
+              className="w-6 h-6 p-1 rounded-full bg-white flex justify-center items-center"
               href="/"
             >
               <Facebook size={16} />
@@ -80,10 +88,26 @@ export const Footer = () => {
             >
               <Instagram size={16} />
             </Link>
+            <Link
+              className="w-6 h-6 p-1 rounded-full bg-white flex justify-center items-center"
+              href="https://discord.gg/2WJTD94uZT"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MessageCircle size={16} />
+            </Link>
           </div>
         </div>
       </div>
       <div className="gap-4 flex md:hidden justify-center mt-8">
+        <Link
+          className="w-6 h-6 p-1 rounded-full bg-white flex justify-center items-center"
+          href="https://x.com/soundmoneyxyz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Twitter size={16} />
+        </Link>
         <Link
           className="w-6 h-6 p-1 rounded-full bg-white flex justify-center items-center"
           href="/"
@@ -101,6 +125,14 @@ export const Footer = () => {
           href="/"
         >
           <Instagram size={16} />
+        </Link>
+        <Link
+          className="w-6 h-6 p-1 rounded-full bg-white flex justify-center items-center"
+          href="https://discord.gg/2WJTD94uZT"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MessageCircle size={16} />
         </Link>
       </div>
     </footer>

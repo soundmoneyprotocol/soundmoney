@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ArrowRight, X } from 'lucide-react';
+import { ArrowRight, X, MessageCircle, Twitter } from 'lucide-react';
 
 export const AppNavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -87,17 +87,17 @@ export const AppNavBar = () => {
                 <p>/</p>
                 <Link href="/audience">Audience</Link>
                 <p>/</p>
-                <Link href="/">Earn</Link>
+                <Link href="https://unitrap.vercel.app/" target="_blank" rel="noopener noreferrer">Swap</Link>
                 <p>/</p>
                 <Link href="/">$BEZY</Link>
                 <p>/</p>
                 <Link href="/">Blog</Link>
                 <p>/</p>
-                <Link href="/">Press</Link>
+                <Link href="https://crypto.news/exclusive-how-soundmoney-protocol-aims-to-disrupt-the-future-of-music/" target="_blank" rel="noopener noreferrer">Press</Link>
                 <p>/</p>
-                <Link href="/">Gallery</Link>
+                <Link href="https://discord.gg/2WJTD94uZT" target="_blank" rel="noopener noreferrer">Discord</Link>
                 <p>/</p>
-                <Link href="/">SocialFi</Link>
+                <Link href="https://x.com/soundmoneyxyz" target="_blank" rel="noopener noreferrer">Social</Link>
               </div>
             </div>
             <div className="w-full border-b border-dotted border-[#EFF3F5] text-white h-16" />
@@ -147,16 +147,24 @@ export const AppNavBar = () => {
                 <Link href="/audience">/ Audience</Link>
                 <Link href="/">/ About</Link>
                 <Link href="/">/ Blog</Link>
-                <Link href="/">/ Press</Link>
-                <Link href="/">/ Gallery</Link>
-                <Link href="/">/ SocialFi</Link>
-                <Link href="/">/ Earn</Link>
+                <Link href="https://crypto.news/exclusive-how-soundmoney-protocol-aims-to-disrupt-the-future-of-music/" target="_blank" rel="noopener noreferrer">/ Press</Link>
+                <Link href="https://discord.gg/2WJTD94uZT" target="_blank" rel="noopener noreferrer">/ Discord</Link>
+                <Link href="https://x.com/soundmoneyxyz" target="_blank" rel="noopener noreferrer">/ Social</Link>
+                <Link href="https://unitrap.vercel.app/" target="_blank" rel="noopener noreferrer">/ Swap</Link>
                 <Link href="/">/ Ecosystem</Link>
                 <Link href="/">/ Contact</Link>
               </div>
             </div>
             <div className="w-full border-b border-dotted border-[#EFF3F5] text-white h-16" />
             <div className="flex flex-col justify-center gap-x-5 items-center w-72 mx-auto mt-8 space-y-4">
+              <div className="flex gap-x-3">
+                <Link href="https://x.com/soundmoneyxyz" target="_blank" rel="noopener noreferrer" className="w-8 h-8 p-1 rounded-full bg-white flex justify-center items-center hover:bg-gray-200 transition">
+                  <Twitter size={20} className="text-black" />
+                </Link>
+                <Link href="https://discord.gg/2WJTD94uZT" target="_blank" rel="noopener noreferrer" className="w-8 h-8 p-1 rounded-full bg-white flex justify-center items-center hover:bg-gray-200 transition">
+                  <MessageCircle size={20} className="text-black" />
+                </Link>
+              </div>
             </div>
           </motion.div>
         )}
