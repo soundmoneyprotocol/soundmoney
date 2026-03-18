@@ -315,7 +315,7 @@ const Docs = () => {
                 LitePaper: SoundMoney Protocol
               </h3>
               <p className="text-xs">
-                Discover how SoundMoney's AI-powered platform enables creators to build engaged communities and monetize at scale.
+                Discover how SoundMoney&apos;s AI-powered platform enables creators to build engaged communities and monetize at scale.
               </p>
             </div>
           </a>
