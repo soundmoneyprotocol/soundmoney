@@ -8,7 +8,7 @@ const LicensePage = () => {
         <section className='space-y-4'>
           <h2 className='text-xl font-bold'>License Grant</h2>
           <p>
-            SoundMoney Protocol grants you a limited, non-exclusive, non-transferable, and revocable license to access and use the SoundMoney platform, website, and associated services (collectively, the "Service") for your personal, non-commercial use, subject to the terms and conditions of this License Agreement.
+            SoundMoney Protocol grants you a limited, non-exclusive, non-transferable, and revocable license to access and use the SoundMoney platform, website, and associated services (collectively, the &quot;Service&quot;) for your personal, non-commercial use, subject to the terms and conditions of this License Agreement.
           </p>
         </section>
 
@@ -73,7 +73,7 @@ const LicensePage = () => {
         <section className='space-y-4'>
           <h2 className='text-xl font-bold'>Disclaimer of Warranties</h2>
           <p>
-            THE SERVICE IS PROVIDED ON AN "AS-IS" AND "AS-AVAILABLE" BASIS. SOUNDMONEY PROTOCOL DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+            THE SERVICE IS PROVIDED ON AN &quot;AS-IS&quot; AND &quot;AS-AVAILABLE&quot; BASIS. SOUNDMONEY PROTOCOL DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
           </p>
         </section>
 
